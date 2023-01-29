@@ -25,7 +25,7 @@
         "display4Size": "1.0",
         "isRoundedButtons": true,
         "isScrollToTopButton": true,
-        "arrowColor": "#4ea2e3"
+        "arrowColor": "#3f485d"
       },
       "additionalSetColors": [
         "#3f485d"
