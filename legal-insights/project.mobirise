@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Legal Insights and Discussions by Naich Law Chamber",
-    "currentPage": "rape-and-its-relevant-evidence.html",
+    "currentPage": "post-arrest-bail.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 198,
+    "uniqCompNum": 206,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "",
@@ -461,7 +461,7 @@
     "islamophobia.html": {
       "settings": {
         "title": "islamophobia : legal article by Naich Law Chamber",
-        "order": 7,
+        "order": 8,
         "meta_descr": "Islamophobia means enmity and hatred towards the religion of Islam and its followers, especially when seen as a geopolitical force or source of terrorism, this islamophobia is not merely the issue of this 21st century but it also existed in the era of Prophet Mohammad (peace be on him) 1400 years ago,",
         "meta_image": "@PROJECT_PATH@/assets/images/islamophobia-992x561.jpg"
       },
@@ -670,7 +670,7 @@
     "child-labour-in-pakistan.html": {
       "settings": {
         "title": "Child Labour in Pakistan : Legal article by Naich Law Chamber",
-        "order": 11,
+        "order": 12,
         "meta_descr": "Child labour means, the exploitation and ill treatment of child through any form of work which deprive that child from childhood , where such labour work prevents that child from attending school. Which is morally, socially, physically, mentally very harmful for that child. Such exploitation is declared illegal by worldwide legislation including Pakistan.",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-9-1920x1280.jpg"
       },
@@ -879,7 +879,7 @@
     "Khulla in Pakistani laws.html": {
       "settings": {
         "title": "Khulla in Pakistani laws : legal article by Naich Law Chamber",
-        "order": 6,
+        "order": 7,
         "meta_descr": "Khula is the right of woman similar to the right of divorce given to husband, the right of khula is exercised by woman in limited circumstances.\nKhula being the right of muslim married woman aggrieved of any Act /Acts of her spouse, khula may be effective by a decree of the court on certain grounds.",
         "meta_image": "@PROJECT_PATH@/assets/images/images-1-739x415.jpg"
       },
@@ -1088,7 +1088,7 @@
     "rape-and-its-relevant-evidence.html": {
       "settings": {
         "title": "Rape and its Relevant Evidence, a pakistani prespective : legal article by Naich Law Chamber",
-        "order": 12,
+        "order": 13,
         "meta_descr": "A person is said to commit rape if he or she has forcibly/without the consent of opposite party, committed sexual intercourse and Zina is commission of wilful intercourse by man and woman without being validly married to each other and Zina may be converted into rape if it takes place without the consent of victim or with consent if such consent is obtained by putting such victim in fear of death or grievous hurt.",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-8-1920x1280.jpg"
       },
@@ -1297,7 +1297,7 @@
     "Women-Right’s-and-Respect.html": {
       "settings": {
         "title": "Women Right’s and Respect : legal article by Naich Law Chamber",
-        "order": 10,
+        "order": 11,
         "meta_descr": "Women rights are fundamental human rights, enshrined by international laws and religious laws. The main reason to unfold this topic is to aware the world to take a look at the violence faced by women in the society. It’s not a recently developed problem but it’s an issue, which the women are facing for ages. They faces inequality with man in every fields.",
         "meta_image": "@PROJECT_PATH@/assets/images/women-506x337.jpg"
       },
@@ -1506,7 +1506,7 @@
     "extra-judicial-killing.html": {
       "settings": {
         "title": "Extra judicial killing in pakistan : legal article by Naich Law Chamber",
-        "order": 9,
+        "order": 10,
         "meta_descr": "Extra judicial killings is the killing of a person by the governmental forces which may include Police or other law enforcement agencies without the sentence of judicial authorities in the absence of legal process. They often target the killings of political figures, religious, social figures or may include proclaimed offenders, which is the serious breach of constitution of Islamic republic of Pakistan.",
         "meta_image": "@PROJECT_PATH@/assets/images/extra-judicial-506x337.jpg"
       },
@@ -1715,7 +1715,7 @@
     "divorce-in-pakistan.html": {
       "settings": {
         "title": " Divorce in Pakistan : legal article by Naich Law Chamber",
-        "order": 8,
+        "order": 9,
         "meta_descr": "In Pakistani Laws divorce is a right given to husband and in the contrary similar right which is called khula is given to wife, divorce is exercised by husband by pronouncing this word to the wife. \nThree times pronouncement of divorce and its legal value.",
         "meta_image": "@PROJECT_PATH@/assets/images/divorce-506x285.jpg"
       },
@@ -1924,7 +1924,7 @@
     "cyber-crime.html": {
       "settings": {
         "title": "Cyber Crime in pakistan and its consequences : legal article by Naich Law Chamber",
-        "order": 5,
+        "order": 6,
         "meta_descr": "In Pakistan cyber crime laws have been enacted in 2016 and there rules were formulated in 2018 it is being enforced by a special Wing of Fedral investigation Agency (FIA) which is named as FIA Cyber Crime wing. which has an effective track record in just a very few years. ",
         "meta_image": "@PROJECT_PATH@/assets/images/images-1-739x415.jpg"
       },
@@ -2342,7 +2342,7 @@
     "releasing-accused.html": {
       "settings": {
         "title": "Releasing Accused : legal article by Naich Law Chamber",
-        "order": 4,
+        "order": 5,
         "meta_descr": "Order for Release of Accused can be pronounced at any stage, it can be prior or post trail order. When the trail has come to its end and the case is going to be decided on merits then the accused gets released with judgment if not found guilty.",
         "meta_image": "@PROJECT_PATH@/assets/images/accused-2048x1365.jpg"
       },
@@ -2551,7 +2551,7 @@
     "What-If-police-is-not-cooperating .html": {
       "settings": {
         "title": "What If police is not cooperating : legal article by Naich Law Chamber",
-        "order": 3,
+        "order": 4,
         "meta_descr": "Police which is the maintainer of law in society and its prime duty is to secure people and their properties. If in a case police is not cooprating in registration of crime report. Then law has provided alternative remidie for such grevience.",
         "meta_image": "@PROJECT_PATH@/assets/images/cooprate-2048x1369.jpg"
       },
@@ -2750,6 +2750,215 @@
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">&nbsp;Copyright © Naich Law Chamber - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
           "_cid": "tuku5frsz3",
           "_anchor": "footer1-5h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "post-arrest-bail.html": {
+      "settings": {
+        "title": "Naich Law Chamber: Your Trusted Guide to Post-Arrest Bail in Pakistan",
+        "order": 3,
+        "meta_descr": "Understand Your Legal Rights with Naich Law Chamber: A Comprehensive Guide to Post-Arrest Bail in Pakistan\" - In this blog post, Naich Law Chamber provides a comprehensive guide to post-arrest bail in Pakistan, including important information on the legal process, eligibility criteria, and how to secure bail. Our experienced lawyers provide expert analysis and guidance, making it easier for you to navigate the complex laws and regulations surrounding post-arrest bail. Get the legal support you need with Naich Law Chamber. Read now!",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-10-1920x1280.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "80px",
+            ".brand-name": {
+              "color": "#000000",
+              "margin": "0"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "400",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            ".navbar": {
+              "min-height": "80px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "margin-right": "0",
+              "padding": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": ".667em 1em !important"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 0"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0.5rem 0 !important",
+                "margin": "0 0 10px !important"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"56\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"49\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/1675267995920-98x98.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"https://naich.law\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/1675267995920-98x98.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"https://naich.law\" class=\"text-black\"><b>Naich Law Chamber</b></a></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"https://naich.law/practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Practice Areas</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"https://naich.law/about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Blog</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"https://naich.law/contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-black\" href=\"tel:+923002828881\" data-app-placeholder=\"Type Text\">\n                  Call us now</a> <a class=\"btn btn-sm btn-success-outline\" href=\"https://wa.me/923002828881\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>Whatsapp</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "tuTilzjTo7",
+          "_anchor": "menu2-5k",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "& when not (@fullWidth)": {
+                "width": "~\"@{videoSize}%\"",
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "img": {
+              "object-fit": "contain"
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-10-1920x1280.jpg\" layout=\"responsive\" width=\"1279.5\" height=\"853\" alt=\"Post-Arrest Bail: An Overview of the Pakistani Legal System : post by Naich Law Chamber\" class=\"mobirise-loader\" title=\"Post-Arrest Bail: An Overview of the Pakistani Legal System : post by Naich Law Chamber\">\n                <div placeholder class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-10-1920x1280.jpg\" alt=\"Post-Arrest Bail: An Overview of the Pakistani Legal System : post by Naich Law Chamber\" title=\"Post-Arrest Bail: An Overview of the Pakistani Legal System : post by Naich Law Chamber\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-text\">\n                    Post-Arrest Bail: An Overview of the Pakistani Legal System</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tuTilA2IPG",
+          "_anchor": "image2-5l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div><i><b>blog by. Adv. Arslan Abid Naich</b></i></div><br><div><i>In Pakistan, the right to post-arrest bail is a fundamental aspect of the criminal justice system. The concept of bail is defined as the release of a person who has been arrested and charged with a criminal offense, on the condition that they will return to court for their trial. The purpose of bail is to ensure that the accused is available for trial, while also allowing them to retain their freedom until their trial date. In this article, we will discuss post-arrest bail and its importance in the Pakistani legal system.</i></div><div><i><br></i></div><div><i>Under Pakistani law, the right to post-arrest bail is enshrined in the Code of Criminal Procedure, 1898. Section 497 of the Code outlines the procedures for granting bail in criminal cases, and states that anyone accused of a non-bailable offense has the right to be released on bail. Bailable offenses are those for which the punishment is less than three years, while non-bailable offenses are those for which the punishment is three years or more. In cases of non-bailable offenses, the grant of bail is at the discretion of the court, and the accused must meet certain conditions in order to be released.</i></div><div><i><br></i></div><div><i>In order to be granted post-arrest bail, the accused must demonstrate that they are not likely to abscond, or interfere with the administration of justice. This typically involves providing a surety, or a person who is willing to stand as a guarantee for the accused's return to court. The surety must be a respected member of the community, and must have sufficient resources to ensure that the accused appears in court when required.</i></div><div><i><br></i></div><div><i>The grant of post-arrest bail can have a significant impact on the outcome of a criminal case. By allowing the accused to remain free, they are able to continue with their daily life, including working and caring for their family. This can also reduce the burden on the criminal justice system, as the accused is not held in custody, saving the state resources.</i></div><div><i><br></i></div><div><i>However, it is important to note that the grant of post-arrest bail does not imply innocence, and it does not guarantee that the accused will be acquitted of the charges against them. It is merely a means of ensuring that the accused is available for trial, and that they do not pose a risk to the administration of justice.</i></div><div><i><br></i></div><div><i>In conclusion, the right to post-arrest bail is a critical aspect of the Pakistani legal system, as outlined in the Code of Criminal Procedure, 1898. The grant of bail is subject to certain conditions, and is based on a consideration of the facts of each case. By ensuring that the accused is available for trial, while also allowing them to retain their freedom, the grant of post-arrest bail plays a vital role in the administration of justice in Pakistan.</i></div></div>\n    </div>\n</section>",
+          "_cid": "tuTilAw47X",
+          "_anchor": "content4-5m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            }
+          },
+          "_name": "social-share",
+          "_customHTML": "<section class=\"social-share\" group=\"Social\" plugins=\"amp-main,amp-social-share\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"checkbox\" title=\"Email\" name=\"email\" checked=\"\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked=\"\">\n        <input type=\"text\" title=\"App Id\" name=\"appId\" condition=\"facebook\" value=\"254325784911610\">\n        <input type=\"checkbox\" title=\"Google+\" name=\"gplus\" checked=\"\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked=\"\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\" checked=\"\">\n        <input type=\"checkbox\" title=\"Tumblr\" name=\"tumblr\" checked=\"\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked=\"\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"wrapper align-center\">\n        <h1 class=\"mbr-fonts-style align-center mbr-py-1\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Share this page\n        </h1>\n        <amp-social-share type=\"email\" mbr-if=\"email\"></amp-social-share>\n        <amp-social-share type=\"facebook\" mbr-if=\"facebook\" data-param-app_id=\"{{appId}}\"></amp-social-share>\n        <amp-social-share type=\"gplus\" mbr-if=\"gplus\"></amp-social-share>\n        <amp-social-share type=\"linkedin\" mbr-if=\"linkedin\"></amp-social-share>\n        <amp-social-share type=\"pinterest\" mbr-if=\"pinterest\" data-param-media=\"https://ampbyexample.com/img/amp.jpg\"></amp-social-share>\n        <amp-social-share type=\"tumblr\" mbr-if=\"tumblr\"></amp-social-share>\n        <amp-social-share type=\"twitter\" mbr-if=\"twitter\"></amp-social-share>\n    </div>\n</section>\n",
+          "_cid": "tuTilAK9bu",
+          "_anchor": "social-share-5n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "content18",
+          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/pexels-pixabay-207700-2000x1333.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\">BLOG</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\">\n                    <i>Our Blog is focused on legal topics and essential general matters, mostely common legal issues are discussed in our blog for general public, to have working knowledge of &nbsp;basic legal concepts.</i></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">All Blogs</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "tuTilB3uPw",
+          "_anchor": "content18-5o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">&nbsp;Copyright © Naich Law Chamber - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "tuTilBk1wu",
+          "_anchor": "footer1-5p",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
