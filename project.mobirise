@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Naich Law Chamber",
-    "currentPage": "page6.html",
+    "currentPage": "lawyers.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -1653,7 +1653,7 @@
         }
       ]
     },
-    "page6.html": {
+    "lawyers.html": {
       "settings": {
         "title": "Meet Our Lawyers: Naich Law Chamber's Skilled and Dedicated Legal Team - Advocates Arslan Abid Naich and Ahsan Abid Naich",
         "order": 4,
