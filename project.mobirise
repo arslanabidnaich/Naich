@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Naich Law Chamber",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 122,
+    "uniqCompNum": 135,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "",
@@ -516,6 +516,88 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".carousel, .slider-box, .carousel-img": {
+              "height": "300px",
+              "width": "100%"
+            },
+            "img": {
+              "object-fit": "cover"
+            },
+            ".carousel-img": {
+              "cursor": "pointer",
+              "position": "relative"
+            },
+            "@media (min-width: 768px)": {
+              ".carousel-img": {
+                "max-width": "450px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-img": {
+                "margin": "0",
+                "padding": "0"
+              },
+              ".amp-carousel-button": {
+                "display": "none"
+              }
+            },
+            "amp-img:after, .icon-wrap": {
+              "position": "absolute",
+              "opacity": "0",
+              "pointer-events": "none",
+              "transition": "opacity .3s"
+            },
+            "amp-img:after": {
+              "content": "\"\"",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "top": "0",
+              "background-color": "@imgOverlayColor"
+            },
+            ".icon-wrap": {
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "left": "50%",
+              "top": "50%",
+              "transform": "translate(-50%, -50%)",
+              ".amp-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\"",
+                "width": "~\"@{iconsSize}rem\"",
+                "color": "contrast(@imgOverlayColor, darken(@imgOverlayColor, 50%), #ffffff, 60%)"
+              }
+            },
+            ".carousel-img:hover": {
+              "amp-img:after": {
+                "opacity": "@imgOverlayOpacity"
+              },
+              ".icon-wrap": {
+                "opacity": "1"
+              }
+            }
+          },
+          "_name": "slider2",
+          "_customHTML": "<section class=\"slider2 slider\" group=\"Carousels &amp; Sliders\" plugins=\"amp-main,amp-carousel,amp-image-lightbox\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"show Buttons\" name=\"showButtons\">\n        \n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"3\" step=\"0.1\" value=\"2\">\n        \n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected=\"\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <input type=\"color\" title=\"Image Overlay Color\" name=\"imgOverlayColor\" value=\"#4ea2e3\">\n        <input type=\"range\" inline=\"\" title=\"Image Overlay Opacity\" name=\"imgOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-pb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-fonts-style mbr-section-title mbr-light align-center mbr-white\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"></h3>\n            <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-light align-center mbr-white\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n        </div>\n        <div class=\"slider-box\"><amp-carousel class=\"carousel\" height=\"300\" layout=\"fixed-height\" type=\"carousel\"><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/group-photo-1044x506.jpg\" alt=\"KULF\" width=\"618.9723320158103\" layout=\"responsive\" height=\"300\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\" title=\"KULF\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/group-photo-1044x506.jpg\" alt=\"KULF\" title=\"KULF\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-0299-2-900x1278.jpg\" alt=\"Mobirise\" width=\"211.26760563380282\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-0299-2-900x1278.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-900x1200.jpg\" alt=\"Mobirise\" width=\"225\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-900x1200.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-900x676.jpg\" alt=\"Mobirise\" width=\"399.4082840236686\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-900x676.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-2310-7-2216x1662.jpeg\" alt=\"ADVOCATE ARSLAN ABID NAICH AND ADVOCATE MUZAMIL HASSAN\" width=\"393.91513210568456\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\" title=\"ADVOCATE ARSLAN ABID NAICH AND ADVOCATE MUZAMIL HASSAN\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2310-7-2216x1662.jpeg\" alt=\"ADVOCATE ARSLAN ABID NAICH AND ADVOCATE MUZAMIL HASSAN\" title=\"ADVOCATE ARSLAN ABID NAICH AND ADVOCATE MUZAMIL HASSAN\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div></amp-carousel>\n            \n        </div>\n        <div class=\"mbr-pt-4\" mbr-if=\"showText || showButtons\">\n            <p class=\"mbr-text align-center mbr-fonts-style mbr-white\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"></p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white\" href=\"practice.html\" data-app-placeholder=\"Type Text\">Practice areas</a></div>\n        </div>\n    </div>\n    <amp-image-lightbox id=\"lightbox1\" layout=\"nodisplay\">\n        <a class=\"control\" data-close-button-aria-label=\"Close\">\n            <span class=\"close\"></span>\n        </a>\n    </amp-image-lightbox>\n</section>",
+          "_anchor": "slider2-3o",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "tvLci8Vdd4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
             "H2": {
               "color": "#ffffff"
             },
@@ -556,7 +638,7 @@
             }
           },
           "_name": "info1",
-          "_customHTML": "<section class=\"info1\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jez-timms-8muutamcwu4-unsplash-1-2000x1479.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><i>Contact us</i></h2>\n                <h3 class=\"mbr-section-subtitle align-left mbr-fonts-style mbr-light mbr-white mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>Contact Naich Law Chamber in Karachi, Pakistan for expert legal services and consultation with our team of experienced lawyers. We are dedicated to protecting your rights and interests.</i></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 align-center mbr-flex\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn mbr-m-auto\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"contact.html\" data-app-placeholder=\"Type Text\">Contact Us</a> <a class=\"btn btn-black\" href=\"question.html\" data-app-placeholder=\"Type Text\">Frequently Asked Questions</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"info1\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jez-timms-8muutamcwu4-unsplash-1-2000x1479.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><i>Contact us</i></h2>\n                <h3 class=\"mbr-section-subtitle align-left mbr-fonts-style mbr-light mbr-white mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>Contact Naich Law Chamber in Karachi, Pakistan for expert legal services and consultation with our team of experienced lawyers. We are dedicated to protecting your rights and interests.</i></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 align-center mbr-flex\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn mbr-m-auto\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"contact.html\" data-app-placeholder=\"Type Text\">Contact Us</a> <a class=\"btn btn-black\" href=\"question.html\" data-app-placeholder=\"Type Text\">Frequently Asked Questions</a> <a class=\"btn btn-white-outline\" href=\"privacy-policy.html\" data-app-placeholder=\"Type Text\">Our Privacy Policy</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "suAatLet8w",
           "_anchor": "info1-b",
           "_protectedParams": [],
@@ -590,7 +672,7 @@
     "practice.html": {
       "settings": {
         "title": "Legal Services - Naich Law Chamber, Karachi, Pakistan",
-        "order": 1,
+        "order": 2,
         "meta_descr": "Discover the full range of legal services offered by Naich Law Chamber in Karachi, Pakistan, including criminal, civil, family, and consumer litigation, as well as expertise in cyber crime law.",
         "meta_image": "@PROJECT_PATH@/assets/images/1675267995915-2000x2000.png"
       },
@@ -840,7 +922,7 @@
     "about.html": {
       "settings": {
         "title": "About Naich Law Chamber: Expert High Court Advocates Arslan Abid Naich & Ahsan Abid Naich in Pakistan",
-        "order": 2,
+        "order": 3,
         "meta_descr": "Discover the expertise of Naich Law Chamber, a trusted law firm in Karachi, Pakistan. Led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, our team offers comprehensive legal services with a focus on protecting your rights and interests. Contact us today.",
         "meta_image": "@PROJECT_PATH@/assets/images/img_2327_2-2-2000x2667.jpeg"
       },
@@ -981,7 +1063,7 @@
             }
           },
           "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" layout=\"responsive\" width=\"522.0426409903713\" height=\"799\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" class=\"mobirise-loader\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Arslan Abid Naich&nbsp;</b><br><i>Advocate High Court</i></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, Arslan has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.<br><br>Arslan is a prominent member of the <b>Karachi Bar Association</b> and the <b>American Bar Association</b>, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.<br><br>With a <b>LL.M</b> (Master of Laws) and <b>LL.B</b> (Bachelor of Laws) degree, along with a B.Sc (Bachelor of Science) degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.<br><br><br></i><br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"mailto:info@advocatearslanabid.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>arslan@naich.law</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" layout=\"responsive\" width=\"522.0426409903713\" height=\"799\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" class=\"mobirise-loader\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Arslan Abid Naich&nbsp;</b><br><i>Advocate High Court</i></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, Arslan has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.<br><br>Arslan is a prominent member of the <b>Karachi Bar Association</b> and the <b>American Bar Association</b>, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.<br><br>With a <b>LL.M</b> (Master of Laws) and <b>LL.B</b> (Bachelor of Laws) degree, along with a B.Sc (Bachelor of Science) degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.<br><br><br></i><br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"mailto:info@advocatearslanabid.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>arslan@naich.law</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "suAgMR1iqT",
           "_anchor": "features10-j",
           "_protectedParams": [],
@@ -1160,86 +1242,6 @@
           "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Specialty\" name=\"showSpecialty\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        \n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Social Count\" name=\"iconsCount\" min=\"1\" max=\"9\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"iconsColor\" value=\"#d5d5d5\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size Social\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"0.8\" condition=\"showSocial\">\n        \n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jez-timms-8muutamcwu4-unsplash-4-2000x1479.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 mbr-px-3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/chandio-336x320.jpg\" layout=\"responsive\" width=\"168\" height=\"160\" alt=\"Muhammad nawaz chandio advocate karachi\" class=\"mobirise-loader rounded mbr-m-auto\" title=\"Muhammad nawaz chandio advocate karachi\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/chandio-336x320.jpg\" alt=\"Muhammad nawaz chandio advocate karachi\" title=\"Muhammad nawaz chandio advocate karachi\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-2\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">M. Nawaz Chandio</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\" mbr-class=\"{'mbr-pb-3': showText}\"><b><i>Advocate High Court</i></b><br><br><i>(B.A, LL.B)</i></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\"><i>A professional experinced legal consultant and litigation lawyer, handles cases of civil litigation, rental cases, banking offences, registration of legal documents and family law cases. having good experince of high court appeals and revisions.</i><br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-google-plus fa\"></span>\n                                </span>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 mbr-px-3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-336x317.jpg\" layout=\"responsive\" height=\"158\" width=\"167.47003154574134\" alt=\"Mobirise\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-336x317.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-2\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Muzamil Hassan</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\" mbr-class=\"{'mbr-pb-3': showText}\"><b><i>Advocate High Court</i><br></b><br><i>(B.Sc, LL.B)</i></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\"><i>An experinced cooprate litigation lawyer with excellent experince in criminal and family litigation, handles company cases and family law cases including, child custody matters, khulla, maintenance, and in criminal cases handles criminal trails and appeals.</i><br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-google-plus fa\"></span>\n                                </span>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 mbr-px-3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/m.-nawaz-chandio-advocate-146x155.jpg\" layout=\"responsive\" height=\"100\" width=\"94.19354838709677\" alt=\"Mobirise\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/m.-nawaz-chandio-advocate-146x155.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-2\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">M.Nawaz Chandio</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\" mbr-class=\"{'mbr-pb-3': showText}\"><b><i>\n                            Advocate High Court</i></b><br><br><i>(B.A, LL.B)</i></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\"><i>A professional experinced legal consultant and litigation lawyer, handles cases of civil litigation, rental cases, banking offences, registration of legal documents and family law cases. having good experince of high court appeals and revisions.</i></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n                                </span>\n                            \n                            \n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-google-plus fa\"></span>\n                                </span>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6 mbr-px-3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper mbr-pt-5 \">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@THEME_PATH@/components/_images/face2.jpg\" layout=\"responsive\" height=\"100\" width=\"100\" alt=\"Mobirise\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp rounded\" src=\"@THEME_PATH@/components/_images/face2.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">DESIGNER</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\" mbr-class=\"{'mbr-pb-3': showText}\">Karin Miller</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam\n                        </p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n                                </span>\n                            </a>\n                            <a href=\"https://plus.google.com/u/0/+Mobirise/posts\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-google-plus fa\"></span>\n                                </span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tn3WlJoCG1",
           "_anchor": "team1-29",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".carousel, .slider-box, .carousel-img": {
-              "height": "300px",
-              "width": "100%"
-            },
-            "img": {
-              "object-fit": "cover"
-            },
-            ".carousel-img": {
-              "cursor": "pointer",
-              "position": "relative"
-            },
-            "@media (min-width: 768px)": {
-              ".carousel-img": {
-                "max-width": "450px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".carousel-img": {
-                "margin": "0",
-                "padding": "0"
-              },
-              ".amp-carousel-button": {
-                "display": "none"
-              }
-            },
-            "amp-img:after, .icon-wrap": {
-              "position": "absolute",
-              "opacity": "0",
-              "pointer-events": "none",
-              "transition": "opacity .3s"
-            },
-            "amp-img:after": {
-              "content": "\"\"",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "top": "0",
-              "background-color": "@imgOverlayColor"
-            },
-            ".icon-wrap": {
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\"",
-              "left": "50%",
-              "top": "50%",
-              "transform": "translate(-50%, -50%)",
-              ".amp-iconfont": {
-                "font-size": "~\"@{iconsSize}rem\"",
-                "width": "~\"@{iconsSize}rem\"",
-                "color": "contrast(@imgOverlayColor, darken(@imgOverlayColor, 50%), #ffffff, 60%)"
-              }
-            },
-            ".carousel-img:hover": {
-              "amp-img:after": {
-                "opacity": "@imgOverlayOpacity"
-              },
-              ".icon-wrap": {
-                "opacity": "1"
-              }
-            }
-          },
-          "_name": "slider2",
-          "_customHTML": "<section class=\"slider2 slider\" group=\"Carousels &amp; Sliders\" plugins=\"amp-main,amp-carousel,amp-image-lightbox\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"show Buttons\" name=\"showButtons\">\n        \n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"3\" step=\"0.1\" value=\"2\">\n        \n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <input type=\"color\" title=\"Image Overlay Color\" name=\"imgOverlayColor\" value=\"#4ea2e3\">\n        <input type=\"range\" inline=\"\" title=\"Image Overlay Opacity\" name=\"imgOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-pb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-fonts-style mbr-section-title mbr-light align-center mbr-white\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"></h3>\n            <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-light align-center mbr-white\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n        </div>\n        <div class=\"slider-box\"><amp-carousel class=\"carousel\" height=\"300\" layout=\"fixed-height\" type=\"carousel\"><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-2310-6-2216x1662.jpeg\" alt=\"Mobirise\" width=\"298.00121138703815\" layout=\"responsive\" height=\"300\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2310-6-2216x1662.jpeg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-0299-2-900x1278.jpg\" alt=\"Mobirise\" width=\"211.26760563380282\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-0299-2-900x1278.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-900x1200.jpg\" alt=\"Mobirise\" width=\"225\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-900x1200.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-900x676.jpg\" alt=\"Mobirise\" width=\"399.4082840236686\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-20230127-115757-900x676.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div></amp-carousel>\n            \n        </div>\n        <div class=\"mbr-pt-4\" mbr-if=\"showText || showButtons\">\n            <p class=\"mbr-text align-center mbr-fonts-style mbr-white\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"></p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white\" href=\"practice.html\" data-app-placeholder=\"Type Text\">Practice areas</a></div>\n        </div>\n    </div>\n    <amp-image-lightbox id=\"lightbox1\" layout=\"nodisplay\">\n        <a class=\"control\" data-close-button-aria-label=\"Close\">\n            <span class=\"close\"></span>\n        </a>\n    </amp-image-lightbox>\n</section>",
-          "_cid": "tu9X0Ciuw0",
-          "_anchor": "slider2-2k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1639,6 +1641,191 @@
           "_global": true,
           "_once": "footer",
           "_params": {}
+        }
+      ]
+    },
+    "privacy-policy.html": {
+      "settings": {
+        "title": "Privacy Policy - Naich Law Chamber Karachi, Pakistan",
+        "order": 1,
+        "meta_descr": "At Naich Law Chamber, we are committed to protecting the privacy of our clients. Our Privacy Policy outlines our strict measures for safeguarding your personal information and data. Read more about our privacy practices on this page.",
+        "meta_image": "@PROJECT_PATH@/assets/images/1675267995915-2000x2000.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "80px",
+            ".brand-name": {
+              "color": "#000000",
+              "margin": "0"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "400",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            ".navbar": {
+              "min-height": "80px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "margin-right": "0",
+              "padding": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": ".667em 1em !important"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 0"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0.5rem 0 !important",
+                "margin": "0 0 10px !important"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"56\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"49\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/1675267995920-98x98.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/1675267995920-98x98.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\">NAICH LAW CHAMBER</a></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Practice Areas</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://legal-insights.naich.law/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Legal Blog</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><strong>Contact</strong></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"question.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FAQ</a></li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-black\" href=\"tel:+923002828881\" data-app-placeholder=\"Type Text\">\n                  Call us now</a> <a class=\"btn btn-sm btn-success-outline\" href=\"https://wa.me/923002828881\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>Whatsapp</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "suzZDLonKD",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu2-3g"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Our Commitment to Privacy - Naich Law Chamber's Privacy Policy</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tvL7qcERlh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content19-3i"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><i>At Naich Law Chamber, we take the privacy and confidentiality of our clients very seriously. As lawyers, we are bound by strict professional and ethical codes that require us to protect the confidentiality of client information. We do not share any personal or confidential information of our clients with any third party, except where required by law or necessary for the representation of our clients.</i><div><i><br></i></div><div><i>We understand that our clients may be sharing sensitive and confidential information with us, and we are committed to ensuring that this information is protected and kept confidential. All information collected from our clients is kept confidential, and access to this information is restricted to only authorized personnel. We take all necessary precautions to prevent unauthorized access, use, or disclosure of any personal information.</i></div><div><i><br></i></div><div><i>In the course of our work, we may have access to personal information such as names, addresses, phone numbers, email addresses, and other sensitive information. This information is only used for the purpose of providing legal services to our clients, and is not shared with any third party without the express consent of our clients. We do not sell, rent, or share any personal information with any third party for marketing purposes.</i></div><div><i><br></i></div><div><i>We may disclose personal information in the following circumstances:</i></div><div><i><br></i></div><div><i>Where required by law: We may be required to disclose personal information to comply with a legal obligation, such as a court order or a request from a law enforcement agency.</i></div><div><i><br></i></div><div><i>For the representation of our clients: In some cases, we may need to share personal information with other lawyers or professionals in order to provide effective representation to our clients. This will only be done with the express consent of our clients.</i></div><div><i><br></i></div><div><i>With our service providers: We may share personal information with our service providers such as IT service providers or document storage providers, but only for the purpose of providing services to our clients.</i></div><div><i><br></i></div><div><i>We take all necessary measures to ensure that personal information is protected and kept confidential. We use various physical, electronic, and procedural safeguards to protect personal information from unauthorized access, use, or disclosure. We regularly review and update our security measures to ensure that they are up to date and effective.</i></div><div><i><br></i></div><div><i>If you have any concerns about the privacy and confidentiality of your personal information, please do not hesitate to contact us. We will be happy to discuss any concerns or questions you may have, and will work with you to ensure that your information is protected and kept confidential.</i></div><div><i><br></i></div><div><i>At Naich Law Chamber, we are committed to providing high-quality legal services while ensuring the privacy and confidentiality of our clients' personal information.</i></div></div>\n    </div>\n</section>",
+          "_cid": "tvL7XQkp0s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-3l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              "@media (max-width: 767px)": {
+                ".btn-container when (@showButton)": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section class=\"info1\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jez-timms-8muutamcwu4-unsplash-1-2000x1479.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><i>Contact us</i></h2>\n                <h3 class=\"mbr-section-subtitle align-left mbr-fonts-style mbr-light mbr-white mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>Contact Naich Law Chamber in Karachi, Pakistan for expert legal services and consultation with our team of experienced lawyers. We are dedicated to protecting your rights and interests.</i></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 align-center mbr-flex\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn mbr-m-auto\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"contact.html\" data-app-placeholder=\"Type Text\">Contact Us</a> <a class=\"btn btn-black\" href=\"question.html\" data-app-placeholder=\"Type Text\">Frequently Asked Questions</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-3m",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "tvL9aMqBup",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">&nbsp;Copyright © Naich Law Chamber - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "suAbdVCS0e",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {},
+          "_anchor": "footer1-3h"
         }
       ]
     }
