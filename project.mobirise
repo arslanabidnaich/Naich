@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Naich Law Chamber",
-    "currentPage": "index.html",
+    "currentPage": "lawyers.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 171,
+    "uniqCompNum": 173,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "",
@@ -1842,34 +1842,49 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "img": {
-              "object-fit": "cover"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            "@media (min-width: 768px)": {
-              ".image-block when (@flexDirection)": {
-                "padding-left": "2rem"
-              },
-              ".image-block when not (@flexDirection)": {
-                "padding-right": "2rem"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
               }
             },
-            "@media (max-width: 767px)": {
+            "@media (min-width: 992px)": {
+              ".text-block": {
+                "padding": "0 2rem"
+              }
+            },
+            "@media (max-width: 991px)": {
               ".image-block": {
-                "padding-bottom": "1rem"
+                "padding-bottom": "1.5rem"
               }
             },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center"
+            "amp-img": {
+              "border-radius": "10px",
+              "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+              "img": {
+                "border-radius": "10px",
+                "object-fit": "cover"
+              }
             },
             ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
             }
           },
           "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" layout=\"responsive\" width=\"522.0426409903713\" height=\"799\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" class=\"mobirise-loader\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Arslan Abid Naich&nbsp;</b><br><i>Advocate High Court</i></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, Arslan has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.<br><br>Arslan is a prominent member of the <b>Karachi Bar Association</b> and the <b>American Bar Association</b>, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.<br><br>With a <b>LL.M</b> (Master of Laws) and <b>LL.B</b> (Bachelor of Laws) degree, along with a Bachelor of Science degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.<br><br><br></i><br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"mailto:info@advocatearslanabid.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>arslan@naich.law</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "tvLmsEQyMX",
-          "_anchor": "features10-3y",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n       \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" layout=\"responsive\" width=\"537.7235213204951\" height=\"823\" alt=\"Advocate Arslan Abid Naich\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-1-2000x2667.jpeg\" alt=\"Advocate Arslan Abid Naich\" title=\"\">\n                </amp-img>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\">\n                <div class=\"text-block mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Arslan Abid Naich&nbsp;<div><i>Advocate High Court</i></div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A highly skilled and dedicated professional lawyer specializing in civil and criminal litigation. With a deep understanding of constitutional, general, and special laws of Pakistan, Arslan has a wealth of experience in handling complex multi-party litigation cases involving substantial amounts of evidence and challenging legal issues.<br><br>Arslan is a prominent member of the <b>Karachi Bar Association</b> and the <b>American Bar Association</b>, reflecting his commitment to staying up-to-date with the latest legal developments and best practices in the field. In addition to his advocacy work, Arslan also provides expert legal advice to clients on a wide range of legal issues.<br><br>With a <b>LL.M</b> (Master of Laws) and <b>LL.B</b> (Bachelor of Laws) degree, along with a Bachelor of Science degree, Arslan possesses a unique blend of legal and scientific knowledge that allows him to approach legal problems from a multifaceted perspective. He is committed to providing his clients with the highest quality of legal representation and advocacy services.<br><br></i><br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black-outline\" href=\"mailto:arslan@naich.law\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>arslan@naich.law</a></div>\n            </div>\n        </div>\n    </div></div>\n</section>",
+          "_anchor": "features10-4r",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "tCEDOZEt4S",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1880,36 +1895,49 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "img": {
-              "object-fit": "cover"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            "@media (min-width: 768px)": {
-              ".image-block when (@flexDirection)": {
-                "padding-left": "2rem"
-              },
-              ".image-block when not (@flexDirection)": {
-                "padding-right": "2rem"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
               }
             },
-            "@media (max-width: 767px)": {
+            "@media (min-width: 992px)": {
+              ".text-block": {
+                "padding": "0 2rem"
+              }
+            },
+            "@media (max-width: 991px)": {
               ".image-block": {
-                "padding-bottom": "1rem"
+                "padding-bottom": "1.5rem"
               }
             },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center"
+            "amp-img": {
+              "border-radius": "10px",
+              "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+              "img": {
+                "border-radius": "10px",
+                "object-fit": "cover"
+              }
             },
             ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
             }
           },
           "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2344-1044x1390.jpeg\" layout=\"responsive\" width=\"556.5405405405405\" height=\"528\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" class=\"mobirise-loader\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2344-1044x1390.jpeg\" alt=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\" title=\"Advocate Arslan Abid - Lawyer in Karachi, Pakistan.\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Ahsan Abid</b><br><i>Advocate High Court</i></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A dynamic and versatile <b>Advocate of the High Court</b>, with a proven track record of success in handling a wide range of cases including Criminal, Civil, and Family law. He holds a <b>LL.B</b> degree in Law and a <b>B.Sc</b> in Science, providing him with a strong foundation in both legal theory and practical applications. As a member of the prestigious <b>American Bar Association</b> and <b>Karachi Bar Association</b>, he stays current with the latest developments in the legal field and has built a reputation for providing expert counsel and representation to clients. With a commitment to delivering results and protecting the rights of his clients, Ahsan is dedicated to providing personalized and effective legal solutions. His extensive experience in handling appeals in the High Court has further strengthened his expertise in navigating complex legal matters. Trust Ahsan Abid Naich to advocate for your rights and defend your interests with passion and determination.</i><br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"mailto:ahsan@naich.law\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>ahsan@naich.law</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n       \n    <div class mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2344-1044x1390.jpeg\" layout=\"responsive\" width=\"537.5675675675675\" height=\"510\" alt=\"Advocate Ahsan Abid Naich\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2344-1044x1390.jpeg\" alt=\"Advocate Ahsan Abid Naich\" title>\n                </amp-img>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\">\n                <div class=\"text-block mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Ahsan Abid<div><i style=\"font-weight: normal;\">Advocate High Court</i></div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>\n                   A dynamic and versatile Advocate of the High Court, with a proven track record of success in handling a wide range of cases including Criminal, Civil, and Family law. He holds a LL.B degree in Law and a B.Sc in Science, providing him with a strong foundation in both legal theory and practical applications. As a member of the prestigious American Bar Association and Karachi Bar Association, he stays current with the latest developments in the legal field and has built a reputation for providing expert counsel and representation to clients. With a commitment to delivering results and protecting the rights of his clients, Ahsan is dedicated to providing personalized and effective legal solutions. His extensive experience in handling appeals in the High Court has further strengthened his expertise in navigating complex legal matters. Trust Ahsan Abid Naich to advocate for your rights and defend your interests with passion and determination.\n                </i></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black-outline\" href=\"mailto:ahsan@naich.law\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>ahsan@naich.law</a></div>\n            </div>\n        </div>\n    </div></div>\n</section>",
+          "_anchor": "features10-4s",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
-          "_cid": "tvLmsFpGvq",
-          "_anchor": "features10-3z",
+          "_cid": "tCEEYOpoze",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
