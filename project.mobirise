@@ -61,9 +61,7 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "mbrsiteDomain": "hzfsgvgp8n",
     "gdpr": false,
-    "cookiesAlert": false,
-    "publishType": "local",
-    "publishPath": "file:///Users/arslanabid/Documents"
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
