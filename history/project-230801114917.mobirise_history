@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Naich Law Chamber",
-    "currentPage": "fee.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -61,7 +61,9 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "mbrsiteDomain": "hzfsgvgp8n",
     "gdpr": false,
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -194,7 +196,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected=\"\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#00dcc0\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Color 2\" value=\"#000000\" name=\"twoColorBg\" condition=\"twoColor &amp;&amp; bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Welcome to Naich Law Chambers<span style=\"font-weight: normal;\">&nbsp;- Your Trusted Legal Partner in Karachi, Pakistan</span></h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>\n                Naich Law Chambers is a leading law office in Karachi, Pakistan, led by <b>Advocate Arslan Abid Naich</b> and <b>Advocate Ahsan Abid Naich</b>. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Corporate law, Criminal Law and Family Law.\n                    </i></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"practice.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpeg\" alt=\"Naich Law Chambers is a leading law office in Karachi, Pakistan, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Criminal Law and Family Law.\" width=\"728.6756476683938\" height=\"367\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"NAICH LAW CHAMBERS, Law office of ADVOCATE ARSLAN ABID NAICH &amp; ADVOCATE AHSAN ABID NAICH\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpeg\" alt=\"Naich Law Chambers is a leading law office in Karachi, Pakistan, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Criminal Law and Family Law.\" data-aspectratio=\"0.5036534446764092\" title=\"NAICH LAW CHAMBERS, Law office of ADVOCATE ARSLAN ABID NAICH &amp; ADVOCATE AHSAN ABID NAICH\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#00dcc0\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" value=\"#000000\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Welcome to Naich Law Chambers<span style=\"font-weight: normal;\">&nbsp;- Your Trusted Legal Partner in Karachi, Pakistan</span></h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>\n                Naich Law Chambers is a leading law office in Karachi, Pakistan, led by <b>Advocate Arslan Abid Naich</b> and <b>Advocate Ahsan Abid Naich</b>. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Corporate law, Criminal Law and Family Law.\n                    </i></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"practice.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpeg\" alt=\"Naich Law Chambers is a leading law office in Karachi, Pakistan, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Criminal Law and Family Law.\" width=\"728.6756476683938\" height=\"367\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"NAICH LAW CHAMBERS, Law office of ADVOCATE ARSLAN ABID NAICH & ADVOCATE AHSAN ABID NAICH\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpeg\" alt=\"Naich Law Chambers is a leading law office in Karachi, Pakistan, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich. Our team of experienced lawyers is dedicated to providing expert legal services and protecting your rights and interests. Our practicing areas include Civil Law, Criminal Law and Family Law.\" data-aspectratio=\"0.5036534446764092\" title=\"NAICH LAW CHAMBERS, Law office of ADVOCATE ARSLAN ABID NAICH & ADVOCATE AHSAN ABID NAICH\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "tCHYtDEFQ2",
           "_anchor": "header2-5t",
           "_protectedParams": [],
@@ -277,7 +279,7 @@
           },
           "_name": "features10",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n       \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-2-2000x2667.jpeg\" layout=\"responsive\" width=\"538.370720188902\" height=\"480\" alt=\"Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General &amp; Special Laws of Pakistan.\" class=\"mobirise-loader\" title=\"One of the Top lawyer in Karachi, Advocate Arslan Abid Naich Owner of Naich Law Chambers Karachi Pakistan\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-2-2000x2667.jpeg\" alt=\"Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General &amp; Special Laws of Pakistan.\" data-aspectratio=\"0.6666666666666666\" title=\"One of the Top lawyer in Karachi, Advocate Arslan Abid Naich Owner of Naich Law Chambers Karachi Pakistan\">\n                </amp-img>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\">\n                <div class=\"text-block mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">ARSLAN ABID NAICH<div><span style=\"font-weight: normal;\"><i>Advocate High Court</i></span></div><div><br></div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>\n                   Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General &amp; Special Laws of Pakistan.\n                </i></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"lawyers.html#features10-3y\" data-app-placeholder=\"Type Text\">Read More</a></div>\n            </div>\n        </div>\n    </div></div>\n</section>",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n       \n    <div class mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-2-2000x2667.jpeg\" layout=\"responsive\" width=\"538.370720188902\" height=\"480\" alt=\"Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General & Special Laws of Pakistan.\" class=\"mobirise-loader\" title=\"One of the Top lawyer in Karachi, Advocate Arslan Abid Naich Owner of Naich Law Chambers Karachi Pakistan\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-2-2000x2667.jpeg\" alt=\"Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General & Special Laws of Pakistan.\" data-aspectratio=\"0.6666666666666666\" title=\"One of the Top lawyer in Karachi, Advocate Arslan Abid Naich Owner of Naich Law Chambers Karachi Pakistan\">\n                </amp-img>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\">\n                <div class=\"text-block mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">ARSLAN ABID NAICH<div><span style=\"font-weight: normal;\"><i>Advocate High Court</i></span></div><div><br></div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>\n                   Advocate Arslan Abid Naich is a professional lawyer specializing in civil and criminal litigation. He is a prominent member of the Karachi Bar Association and American Bar Association, with extensive experience in Constitutional, General &amp; Special Laws of Pakistan.\n                </i></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"lawyers.html#features10-3y\" data-app-placeholder=\"Type Text\">Read More</a></div>\n            </div>\n        </div>\n    </div></div>\n</section>",
           "_anchor": "features10-4c",
           "_isUserblock": true,
           "_cid": "tCEtkEzLMj",
@@ -1275,7 +1277,7 @@
     "contact.html": {
       "settings": {
         "title": "Contact Naich Law Chambers - Expert Legal Services in Karachi, Pakistan",
-        "order": 5,
+        "order": 4,
         "meta_descr": "Contact Naich Law Chambers in Karachi, Pakistan for expert legal services and consultation with our team of experienced lawyers. We are dedicated to protecting your rights and interests.",
         "meta_image": "@PROJECT_PATH@/assets/images/1675267995915-2000x2000.png"
       },
@@ -2288,7 +2290,7 @@
     "criminal-litigation.html": {
       "settings": {
         "title": "Criminal Litigation | Naich Law Chambers | Top Criminal Lawyer in Karachi, Pakistan",
-        "order": 10,
+        "order": 37,
         "meta_descr": "Naich Law Chambers provides expert legal advice and representation in criminal litigation cases. Our team of experienced lawyers specializes in false charges, personal injury, domestic violence, child abuse, sexual harassment, wrongful arrest, and false accusations of capital offenses.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -2477,7 +2479,7 @@
     "civil-litigation.html": {
       "settings": {
         "title": "Civil Litigation | Naich Law Chambers | Top Civil Lawyer in Karachi, Pakistan",
-        "order": 6,
+        "order": 28,
         "meta_descr": "Naich Law Chambers specializes in civil litigation and provides expert legal representation in a wide range of civil disputes. Our experienced team of lawyers handles cases including landlord-tenant disputes, property battles, financial injury, educational institutional disputes, contractual disputes, suits for recovery of money, and more.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -2668,7 +2670,7 @@
     "family-litigation.html": {
       "settings": {
         "title": "Family Litigation | Naich Law Chambers | Top Family Lawyer in Karachi, Pakistan",
-        "order": 8,
+        "order": 26,
         "meta_descr": "Naich Law Chambers offers expert legal support in various family law cases, including divorce, separation maintenance, recovery of dowry articles, conjugal rights, claims of property promised in marriage, and services for overseas clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -2859,7 +2861,7 @@
     "guardianship.html": {
       "settings": {
         "title": "Child Custody &amp; Guardianship | Naich Law Chambers | Top Family Lawyer in Karachi, Pakistan",
-        "order": 9,
+        "order": 5,
         "meta_descr": "Naich Law Chambers provides expert legal advice and representation in child custody, legal guardianship, child adoption, visitation rights, and child maintenance cases. Our experienced family lawyers are dedicated to protecting the best interests of children and helping clients navigate complex family law matters."
       },
       "components": [
@@ -3049,7 +3051,7 @@
     "consumer-litigation.html": {
       "settings": {
         "title": "Consumer Litigation | Naich Law Chambers | Top Consumer Rights Lawyer in Karachi, Pakistan",
-        "order": 30,
+        "order": 27,
         "meta_descr": "Naich Law Chambers is committed to defending consumer rights and providing legal assistance in consumer protection court cases. Our experienced lawyers ensure that rightful claimants receive their rights in matters of consumer litigation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -3240,7 +3242,7 @@
     "cyber-crime.html": {
       "settings": {
         "title": "Cyber Crime Cases | Naich Law Chambers | Top Cyber Crime Lawyer in Karachi, Pakistan",
-        "order": 11,
+        "order": 19,
         "meta_descr": "Naich Law Chambers offers specialized expertise in cyber crime law, providing legal support and protection against cyber threats. Our team handles cases related to cyber terrorism, identity theft, cyber bullying, and online harassment, ensuring the rights and security of our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -3431,7 +3433,7 @@
     "tenancy.html": {
       "settings": {
         "title": "Landlord-Tenant Disputes | Naich Law Chambers | Top Landlord-Tenant Lawyer in Karachi, Pakistan",
-        "order": 23,
+        "order": 20,
         "meta_descr": "Naich Law Chambers provides expert legal advice and representation in landlord-tenant disputes. Our experienced lawyers handle a wide range of issues, including lease agreements, eviction proceedings, rent disputes, property maintenance, and tenant rights, ensuring fair resolution for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -3622,7 +3624,7 @@
     "property-matters.html": {
       "settings": {
         "title": "Property Battles | Naich Law Chambers | Top Property Dispute Lawyer in Karachi, Pakistan",
-        "order": 24,
+        "order": 21,
         "meta_descr": "Naich Law Chambers offers expert legal representation and advice in property battles. Our experienced lawyers handle various property disputes, including ownership disputes, boundary disputes, title defects, inheritance claims, and illegal encroachments, ensuring a fair resolution for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -3813,7 +3815,7 @@
     "financial-injury.html": {
       "settings": {
         "title": "Financial Injury | Naich Law Chambers | Top Financial Injury Lawyer in Karachi, Pakistan",
-        "order": 25,
+        "order": 22,
         "meta_descr": "Naich Law Chambers provides expert legal representation and support for cases involving financial injury. Our skilled lawyers handle a wide range of financial injury claims, including fraud, misrepresentation, breach of contract, investment disputes, and financial negligence, ensuring fair compensation for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4004,7 +4006,7 @@
     "educational-disputes.html": {
       "settings": {
         "title": "Educational Institutional Disputes | Naich Law Chambers | Top Education Law Firm in Karachi, Pakistan",
-        "order": 26,
+        "order": 23,
         "meta_descr": "Naich Law Chambers specializes in handling educational institutional disputes, providing legal assistance to students facing issues such as unfair treatment, disciplinary actions, academic grievances, and violations of student rights. Our experienced lawyers are dedicated to protecting students' interests and ensuring a fair and supportive educational environment.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4195,7 +4197,7 @@
     "contractual-disputes.html": {
       "settings": {
         "title": "Contractual Disputes | Naich Law Chambers | Top Contract Law Firm in Karachi, Pakistan",
-        "order": 27,
+        "order": 24,
         "meta_descr": "Naich Law Chambers offers expert legal representation and advice in contractual disputes. Our experienced lawyers specialize in handling contract-related conflicts, including breach of contract, contract interpretation, non-performance, and contractual disagreements, ensuring fair resolutions for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4386,7 +4388,7 @@
     "recovery-suit.html": {
       "settings": {
         "title": "Suits for Recovery of Money | Naich Law Chambers | Top Debt Recovery Law Firm in Karachi, Pakistan",
-        "order": 28,
+        "order": 25,
         "meta_descr": "Naich Law Chambers offers professional legal representation and guidance in suits for the recovery of money. Our experienced lawyers specialize in debt recovery cases, including outstanding loans, unpaid invoices, financial disputes, and debt collection, ensuring efficient and effective recovery for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4577,7 +4579,7 @@
     "false-charges .html": {
       "settings": {
         "title": "False Charges | Naich Law Chambers | Expert Legal Representation for False Accusations",
-        "order": 31,
+        "order": 29,
         "meta_descr": "Naich Law Chambers provides skilled legal representation and support for false charges cases. Our experienced lawyers specialize in defending clients against wrongful allegations, false accusations, and fabricated charges, ensuring their rights are protected and justice is served.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4768,7 +4770,7 @@
     "personal-injury.html": {
       "settings": {
         "title": "Personal Injury | Naich Law Chambers | Experienced Personal Injury Lawyers in Karachi, Pakistan",
-        "order": 33,
+        "order": 31,
         "meta_descr": "Naich Law Chambers provides dedicated legal representation for personal injury cases. Our experienced lawyers specialize in handling a wide range of personal injury claims, including accidents, medical negligence, workplace injuries, and wrongful death, ensuring that our clients receive the compensation they deserve.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -4959,7 +4961,7 @@
     "domestic-violence.html": {
       "settings": {
         "title": "Domestic Violence Lawyers in Karachi, Pakistan | Naich Law Chambers | Compassionate Legal Support for Domestic Violence Victims",
-        "order": 32,
+        "order": 30,
         "meta_descr": "Naich Law Chambers is a leading law firm in Karachi, Pakistan, providing compassionate legal support for domestic violence victims. Our experienced domestic violence lawyers specialize in protecting the rights of victims, obtaining restraining orders, filing for divorce, and seeking justice. Contact us for expert legal representation in domestic violence cases.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -5150,7 +5152,7 @@
     "end-child-abuse.html": {
       "settings": {
         "title": "Legal Services for Victims of Child Abuse in Karachi, Pakistan | Naich Law Chambers | Protecting Rights and Seeking Justice",
-        "order": 37,
+        "order": 36,
         "meta_descr": "Naich Law Chambers provides comprehensive legal services for victims of child abuse in Karachi, Pakistan. Our experienced lawyers are dedicated to protecting the rights of child abuse victims, providing them with expert legal support, and seeking justice on their behalf. Contact us for compassionate and effective legal representation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -5341,7 +5343,7 @@
     "sexual-harassment-justice.html": {
       "settings": {
         "title": "Legal Assistance for Sexual Harassment Victims in Karachi, Pakistan | Naich Law Chambers | Protecting Rights and Seeking Justice",
-        "order": 36,
+        "order": 35,
         "meta_descr": "Naich Law Chambers offers dedicated legal support and representation for victims of sexual harassment in Karachi, Pakistan. Our experienced lawyers are committed to protecting the rights of sexual harassment victims, providing them with compassionate legal assistance, and seeking justice on their behalf. Contact us for expert legal representation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -5532,7 +5534,7 @@
     "capital-offences.html": {
       "settings": {
         "title": "Legal Representation for Capital Offences in Karachi, Pakistan | Naich Law Chambers | Protecting Rights and Ensuring Fair Trials",
-        "order": 35,
+        "order": 34,
         "meta_descr": "Naich Law Chambers provides skilled legal representation for capital offences in Karachi, Pakistan. Our experienced lawyers are committed to protecting the rights of individuals accused of capital offences, ensuring fair trials, and providing effective legal defense. Contact us for expert assistance in capital offence cases.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -5723,7 +5725,7 @@
     "divorce-lawyers.html": {
       "settings": {
         "title": "Expert Divorce Lawyers in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 29,
+        "order": 33,
         "meta_descr": "Naich Law Chambers provides expert legal representation for divorce cases in Karachi, Pakistan. Our experienced divorce lawyers are dedicated to protecting the rights and interests of our clients, ensuring fair settlements, and guiding them through the divorce process. Contact us for professional assistance in divorce matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -5914,7 +5916,7 @@
     "separation-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Separation Cases in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 34,
+        "order": 32,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for separation cases in Karachi, Pakistan. Our experienced lawyers specialize in family suits for separation and ensure that your rights and interests are protected throughout the court proceedings. Contact us for professional assistance in separation matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg"
       },
@@ -6105,7 +6107,7 @@
     "family-maintenance.html": {
       "settings": {
         "title": "Expert Legal Guidance for Maintenance Cases in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 19,
+        "order": 15,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for maintenance cases in Karachi, Pakistan. Our experienced lawyers specialize in securing maintenance for wives and children during divorce, separation, or family dispute proceedings. Contact us for professional assistance in maintenance matters."
       },
       "components": [
@@ -6295,7 +6297,7 @@
     "suit-dowery-articles.html": {
       "settings": {
         "title": "Expert Legal Assistance for Suit of Recovery of Dowry Articles in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 22,
+        "order": 18,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for suits of recovery of dowry articles in Karachi, Pakistan. Our experienced lawyers specialize in assisting wives in claiming their rightful dowry articles during marriage or divorce proceedings. Contact us for professional assistance in dowry recovery matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6486,7 +6488,7 @@
     "conjugal-rights-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Suit of Restitution of Conjugal Rights in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 21,
+        "order": 17,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for suits of restitution of conjugal rights in Karachi, Pakistan. Our experienced lawyers specialize in assisting spouses in seeking the restoration of conjugal rights through legal proceedings. Contact us for professional assistance in conjugal rights matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6677,7 +6679,7 @@
     "promised-property.html": {
       "settings": {
         "title": "Expert Legal Assistance for Claims of Property Promised in Marriage in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Interests",
-        "order": 20,
+        "order": 16,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for claims of property promised in marriage in Karachi, Pakistan. Our experienced lawyers specialize in assisting individuals in asserting their rights to property promised to them during the course of marriage. Contact us for professional assistance in property claims matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6868,7 +6870,7 @@
     "child-custody-case.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Custody Cases in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights and Your Child's Best Interests",
-        "order": 14,
+        "order": 10,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for child custody cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits of custody under the Guardian and Wards Act, ensuring the protection of your rights and advocating for your child's best interests. Contact us for professional assistance in child custody matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7059,7 +7061,7 @@
     "guardianship-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Legal Guardianship Cases in Karachi, Pakistan | Naich Law Chambers | Protecting the Best Interests of Minors",
-        "order": 18,
+        "order": 14,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for legal guardianship cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits for guardianship under the Guardian and Wards Act, ensuring the protection of minors' rights and their best interests. Contact us for professional assistance in legal guardianship matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7250,7 +7252,7 @@
     "child-adoption-process.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Adoption in Karachi, Pakistan | Naich Law Chambers | Guiding You Through the Adoption Process",
-        "order": 17,
+        "order": 13,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for child adoption cases in Karachi, Pakistan. Our experienced lawyers specialize in handling the adoption process, including the preparation of adoption deeds, filing suits for guardianship, and obtaining guardianship certificates from the family court. Contact us for professional assistance in child adoption matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7441,7 +7443,7 @@
     "child-visitation-rights.html": {
       "settings": {
         "title": "xpert Legal Assistance for Right of Visitation to Child in Karachi, Pakistan | Naich Law Chambers | Ensuring Parental Access and Bonding",
-        "order": 16,
+        "order": 12,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for the right of visitation to a child in Karachi, Pakistan. Our experienced lawyers specialize in filing suits under the Guardian and Wards Act, ensuring that parents have access to their children and maintaining strong parent-child relationships. Contact us for professional assistance in matters of visitation rights.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7632,7 +7634,7 @@
     "child-maintenance-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Maintenance in Karachi, Pakistan | Naich Law Chambers | Ensuring Financial Support for Children",
-        "order": 15,
+        "order": 11,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for child maintenance cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits in the family court to seek maintenance orders, ensuring that children receive the financial support they deserve for their well-being. Contact us for professional assistance in matters of child maintenance.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7823,7 +7825,7 @@
     "cyber-terrorism-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Cyber Terrorism Cases in Karachi, Pakistan | Naich Law Chambers | Protecting Your Rights in Cyber Crime Matters",
-        "order": 12,
+        "order": 6,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for cyber terrorism cases in Karachi, Pakistan. Our experienced lawyers specialize in assisting clients in cases of cyber crimes under the Prevention of Electronic Crimes Act, ensuring their rights are protected throughout the investigation and trial process. Contact us for professional assistance in cyber crime matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -8014,7 +8016,7 @@
     "identity-theft-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Identity Theft Cases in Karachi, Pakistan | Naich Law Chambers | Protecting Your Identity and Rights in Cyber Crime Matters",
-        "order": 13,
+        "order": 9,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for identity theft cases in Karachi, Pakistan. Our experienced lawyers specialize in assisting clients in cases of cyber crimes, including identity theft, under the Prevention of Electronic Crimes Act. We prioritize protecting your identity and rights throughout the investigation and trial process. Contact us for professional assistance in identity theft matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -8205,7 +8207,7 @@
     "fee.html": {
       "settings": {
         "title": "Transparent Legal Fee Options | Naich Law Chambers | Expert Legal Services at Your Convenience",
-        "order": 4,
+        "order": 7,
         "meta_descr": "Naich Law Chambers offers flexible and transparent legal fee options tailored to your specific needs. Choose from Hourly Fee, Flat Fee, or Fee on Retainer with sub-options to suit your requirements. Our experienced lawyers provide expert legal services at competitive rates. Learn more about our fee options and find the best solution for your legal matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -8327,7 +8329,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><i>Expert Legal Services | Naich Law Chambers</i></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i>At Naich Law Chambers, we provide the following fee options to cater to your specific requirements:<br><br><b>- Initial Consultation:</b> We are pleased to offer a reduced hourly fee of PKR 20,000 per hour for expert legal advice during your first consultation. This exclusive rate allows you to benefit from our experienced lawyers' insights without a significant upfront commitment.<br><br><b>- Litigation Hourly Fee: [Details below]</b><br><b>- Flat Fee Option: [Details below]<br>- Retainer Fee Option: [Details below]</b><br><br>We believe in transparent and client-oriented legal services. Choose the best fee option that suits your needs and contact us to discuss your legal matters today. More details about the Litigation Hourly Fee, Flat Fee Option, and Retainer Fee Option are provided below for your convenience.</i></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><i>Expert Legal Services | Naich Law Chambers</i></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i>Naich Law Chambers is a reputable law firm in Karachi, Pakistan, known for its transparent and client-oriented legal fee options. We understand that each client has unique legal needs, and we strive to provide flexible and cost-effective solutions. Our experienced lawyers offer the following fee options to cater to your specific requirements:</i></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tLp9lkYJFh",
           "_anchor": "content2-9g",
           "_protectedParams": [],
@@ -8349,7 +8351,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>1. Litigation Hourly Fee:</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i><br></i>FIXED HOURLY FEE:<i style=\"font-weight: bold;\"> </i><b>PKR. 80,000/-</b><br><br><i>Our Hourly Fee option provides a flexible billing structure that allows you to pay for legal services based on the time spent on your case. Civil cases generally take a minimum of 6 hours per year, with an average of 7 to 8 hours, and the actual hours may differ depending on the complexity of each case.<br><br>We believe in complete transparency, and before initiating any legal work, we require a considerable advance payment, which is adjusted against the actual hours spent on your case.<br><br><b>Billable Time:</b><br>Our billable time generally includes, but is not limited to, the following activities: court appearances, waiting periods in court, travel to/from court (in certain cases), telephone conferences, legal research, depositions, document inspections, drafting pleadings, and preparation for trials/hearings. It also covers time spent on case-related office conferences, compliance with court orders, reviewing case materials, and handling correspondence with clients and court.<br><br><b>Specific Agreement:</b><br>We understand that each case is unique and may require different levels of attention and effort. That's why we make a specific agreement with each client, considering the specific needs of their case. This ensures that you receive tailored legal services and only pay for the time and efforts relevant to your particular matter.<br><br><b>Transparent Invoicing:</b><br>We issue detailed invoices every 30 days, providing a clear breakdown of the hours spent on your case. You can easily keep track of the time devoted to your matter and have complete visibility into your legal expenses.<br><br><b>Flexibility and Control:</b><br>The Hourly Fee option gives you the flexibility to control the duration of legal representation. You can be confident that you are only paying for the actual time and efforts devoted to your case, making it an ideal choice for clients who prefer a clear breakdown of their legal expenses.</i><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>1. Hourly Fee:</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i>Our Hourly Fee option provides a flexible billing structure that allows you to pay for legal services based on the time spent on your case. We believe in complete transparency, and before initiating any legal work, we require a considerable advance payment, which is adjusted against the actual hours spent on your case.<br><br><b>Billable Time:</b><br>Our billable time generally includes, but is not limited to, the following activities:<br>court appearances, waiting periods in court, travel to/from court (in certain cases), telephone conferences, legal research, depositions, document inspections, drafting pleadings, and preparation for trials/hearings. It also covers time spent on case-related office conferences, compliance with court orders, reviewing case materials, and handling correspondence with clients and court.<br><br><b>Specific Agreement:</b><br>We understand that each case is unique and may require different levels of attention and effort. That's why we make a specific agreement with each client, considering the specific needs of their case. This ensures that you receive tailored legal services and only pay for the time and efforts relevant to your particular matter.<br><br><b>Transparent Invoicing:</b><br>We issue detailed invoices every 30 days, providing a clear breakdown of the hours spent on your case. You can easily keep track of the time devoted to your matter and have complete visibility into your legal expenses.<br><br><b>Flexibility and Control:</b><br>The Hourly Fee option gives you the flexibility to control the duration of legal representation. You can be confident that you are only paying for the actual time and efforts devoted to your case, making it an ideal choice for clients who prefer a clear breakdown of their legal expenses.</i><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tLpac4dnY6",
           "_anchor": "content2-9h",
           "_protectedParams": [],
@@ -8371,7 +8373,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>2. Flat Fee:</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i>Our Flat Fee option is specifically designed for cases that typically last up to a maximum of 6 months. For cases with an average duration longer than 6 months, we may not offer the Flat Fee option. However, the Flat Fee option is available for non-litigation matters and legal documentation services.<br><br>This billing structure provides a transparent and fixed fee for the specified legal services, allowing you to know the cost in advance without any surprises. It is ideal for clients seeking certainty and predictability in their legal expenses for short-duration cases and non-litigation matters.<br><br>Please note that for cases with longer durations or more complex litigation matters, we may recommend alternative billing options that align with the specific needs and requirements of those cases. Our goal is to provide tailored legal solutions and fair billing practices that best serve our clients' unique legal needs.</i><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>2. Flat Fee:</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><i>Our Flat Fee option provides a straightforward and predictable billing structure. For most normal cases, we require the full fee in advance. However, for long-term and highly complicated cases, we offer the option of paying the fee in not more than two installments, with 50% of the fee required in advance. This Flat Fee option is slightly more expensive than the hourly billing option due to the following reasons:<br><br>- Consideration of Maximum Time: With the Flat Fee, we fix an amount considering the maximum time and efforts a case may require. This ensures that our clients are provided with comprehensive legal services, without worrying about additional charges for extended legal work.<br><br>- Complications and Efforts: Complex cases often demand additional efforts and in-depth analysis, which is taken into account when determining the Flat Fee. Our experienced lawyers diligently address all complexities, ensuring that your case is handled with utmost care and professionalism.<br><br>The Flat Fee option provides certainty and convenience, allowing you to budget for your legal expenses in advance. Our commitment to delivering top-notch legal services for your unique legal needs makes the slightly higher fee worthwhile.</i></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tLpadutklG",
           "_anchor": "content2-9i",
           "_protectedParams": [],
@@ -8485,7 +8487,7 @@
     "corporate-litigation.html": {
       "settings": {
         "title": "Corporate Litigation Services | Naich Law Chambers | Expert Legal Solutions for Businesses",
-        "order": 7,
+        "order": 8,
         "meta_descr": "Naich Law Chambers provides expert corporate litigation services in Karachi, Pakistan. Our experienced lawyers offer tailored legal solutions for businesses facing complex disputes and legal challenges. From contract disputes to shareholder issues, we are committed to protecting your company's interests and ensuring favorable outcomes. Learn more about our corporate litigation services and how we can assist your business.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
