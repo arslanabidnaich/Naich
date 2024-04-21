@@ -51,7 +51,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 436,
+    "uniqCompNum": 432,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "",
@@ -1439,7 +1439,7 @@
     "question.html": {
       "settings": {
         "title": "Frequently Asked Questions (FAQ) - Naich Law Firm",
-        "order": 51,
+        "order": 50,
         "meta_descr": "Get answers to your frequently asked questions about civil, criminal, and family law at Naich Law Firm. Learn about the process of hiring a lawyer, the costs involved, the role of a lawyer in a case, and what happens in a court hearing. Discover options for settling a case out of court and preparing for a court hearing. Contact us for more information.",
         "meta_image": "@PROJECT_PATH@/assets/images/1675267995915-2000x2000.png"
       },
@@ -1653,7 +1653,7 @@
     "privacy-policy.html": {
       "settings": {
         "title": "Privacy Policy - Naich Law Firm Karachi, Pakistan",
-        "order": 50,
+        "order": 49,
         "meta_descr": "At Naich Law Firm, we are committed to protecting the privacy of our clients. Our Privacy Policy outlines our strict measures for safeguarding your personal information and data. Read more about our privacy practices on this page.",
         "meta_image": "@PROJECT_PATH@/assets/images/1675267995915-2000x2000.png"
       },
@@ -2183,7 +2183,7 @@
     "criminal-litigation.html": {
       "settings": {
         "title": "Criminal Litigation | Naich Law Firm | Top Criminal Lawyer in Karachi, Pakistan",
-        "order": 14,
+        "order": 12,
         "meta_descr": "Naich Law Firm provides expert legal advice and representation in criminal litigation cases. Our team of experienced lawyers specializes in false charges, personal injury, domestic violence, child abuse, sexual harassment, wrongful arrest, and false accusations of capital offenses.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -2450,7 +2450,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\"><a href=\"index.html\" class=\"text-black\">NAICH LAW&nbsp;FIRM</a></span></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\">Practice Areas</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">View All</a><a class=\"text-black dropdown-item\" href=\"civil-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Civil Litigation</a><a class=\"text-black dropdown-item\" href=\"corporate-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Corporate Litigation<br></a><a class=\"text-black dropdown-item\" href=\"family-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Family Litigation</a><a class=\"text-black dropdown-item\" href=\"guardianship.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Child Custody</a><a class=\"text-black dropdown-item\" href=\"criminal-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Criminal Litigation</a><a class=\"text-black dropdown-item\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Cyber Crime Litigation</a></div>\n                    \n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"lawyers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Our Lawyers</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"fee.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Fee</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white\" href=\"mailto:email@naichlaw.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope mbr-iconfont mbr-iconfont-btn\"></span>\n                  Email Us</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand && !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\"><a href=\"index.html\" class=\"text-black\">NAICH LAW&nbsp;FIRM</a></span></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\">Practice Areas</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">View All</a><a class=\"text-black dropdown-item\" href=\"civil-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Civil Litigation</a><a class=\"text-black dropdown-item\" href=\"corporate-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Corporate Litigation<br></a><a class=\"text-black dropdown-item\" href=\"family-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Family Litigation</a><a class=\"text-black dropdown-item\" href=\"guardianship.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Child Custody</a><a class=\"text-black dropdown-item\" href=\"criminal-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Criminal Litigation</a><a class=\"text-black dropdown-item\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Cyber Crime Litigation</a></div>\n                    \n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"lawyers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Our Lawyers</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"fee.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Fee</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white\" href=\"mailto:email@naichlaw.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope mbr-iconfont mbr-iconfont-btn\"></span>\n                  Email Us</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
           "_cid": "suzZDLonKD",
           "_sourceTheme": "mobirise-amp",
           "_anchor": "menu2-60",
@@ -2493,7 +2493,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected=\"\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor &amp;&amp; bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Civil Litigation Services</h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">by Naich Law Firm's Top Civil Rights Lawyers in Karachi, Pakistan.</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>Naich Law Firm is a leading law firm in Karachi, Pakistan, renowned for its exceptional legal services in civil litigation. Our team of skilled and experienced lawyers, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, is committed to protecting the rights and interests of our clients in various civil disputes.<br><br>When faced with civil disputes, it is crucial to have a knowledgeable and dedicated legal team on your side. At Naich Law Chambers, we have a deep understanding of civil law in Pakistan and a successful track record of handling complex cases. Our expertise covers a wide range of civil litigation matters, including but not limited to:<br><br><a href=\"tenancy.html\" class=\"text-black\"><b><i><u>Landlord-Tenant Disputes</u></i></b></a>: Our lawyers provide legal representation and guidance to both landlords and tenants in resolving disputes related to leases, rental agreements, eviction notices, property damage, and other related matters.<br><br><a href=\"property-matters.html\" class=\"text-black\"><b><i><u>Property Battles</u></i></b></a>: We assist clients in resolving property disputes, including ownership disputes, boundary disputes, illegal encroachments, land grabbing, and other property-related conflicts.<br><br><a href=\"financial-injury.html\" class=\"text-black\"><i><b><u>Financial Injury</u></b></i></a>: Our team helps individuals and businesses in seeking compensation for financial losses caused by fraud, breach of contract, negligence, or other wrongful acts.<br><br><a href=\"educational-disputes.html\" class=\"text-black\"><b><i><u>Educational Institutional Disputes</u></i></b></a>: We represent students, parents, and educational institutions in disputes related to admissions, disciplinary actions, grading, discrimination, and other issues within the education sector.<br><br><a href=\"contractual-disputes.html\" class=\"text-black\"><i><b><u>Contractual Disputes</u></b></i></a>: Our lawyers provide legal advice and representation in contractual disputes, helping clients interpret and enforce contracts, resolve breach of contract issues, and negotiate favorable outcomes.<br><br><a href=\"recovery-suit.html\" class=\"text-black\"><i><b><u>Suits for Recovery of Money</u></b></i></a>: We assist clients in recovering money owed to them through legal proceedings, including debt collection, loan defaults, unpaid invoices, and other monetary claims.<br><br>At Naich Law Firm, we believe in a client-centered approach. Our dedicated team of civil lawyers works closely with clients, understanding their specific needs and objectives, and providing personalized legal strategies to achieve the best possible outcomes. We are committed to diligently representing our clients' interests, whether through negotiation, mediation, or litigation.<br><br>With our strong advocacy skills, attention to detail, and comprehensive legal knowledge, Naich Law Firm has established a reputation as a top civil law firm in Karachi. We are committed to delivering high-quality legal services, ensuring that our clients' rights and interests are protected throughout the civil litigation process.<br><br>If you are in need of a top civil lawyer in Karachi, Pakistan, contact Naich Law Firm today to schedule a consultation. Let our experienced team guide you through your civil dispute and work towards a favorable resolution.<br></i><br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Building</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\" width=\"728.1930501930501\" height=\"543\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Civil Litigation Services</h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">by Naich Law Firm's Top Civil Rights Lawyers in Karachi, Pakistan.</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>Naich Law Firm is a leading law firm in Karachi, Pakistan, renowned for its exceptional legal services in civil litigation. Our team of skilled and experienced lawyers, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, is committed to protecting the rights and interests of our clients in various civil disputes.<br><br>When faced with civil disputes, it is crucial to have a knowledgeable and dedicated legal team on your side. At Naich Law Chambers, we have a deep understanding of civil law in Pakistan and a successful track record of handling complex cases. Our expertise covers a wide range of civil litigation matters, including but not limited to:<br><br><a href=\"tenancy.html\" class=\"text-black\"><b><i><u>Landlord-Tenant Disputes</u></i></b></a>: Our lawyers provide legal representation and guidance to both landlords and tenants in resolving disputes related to leases, rental agreements, eviction notices, property damage, and other related matters.<br><br><a href=\"property-matters.html\" class=\"text-black\"><b><i><u>Property Battles</u></i></b></a>: We assist clients in resolving property disputes, including ownership disputes, boundary disputes, illegal encroachments, land grabbing, and other property-related conflicts.<br><br><a href=\"financial-injury.html\" class=\"text-black\"><i><b><u>Financial Injury</u></b></i></a>: Our team helps individuals and businesses in seeking compensation for financial losses caused by fraud, breach of contract, negligence, or other wrongful acts.<br><br><a href=\"educational-disputes.html\" class=\"text-black\"><b><i><u>Educational Institutional Disputes</u></i></b></a>: We represent students, parents, and educational institutions in disputes related to admissions, disciplinary actions, grading, discrimination, and other issues within the education sector.<br><br><a href=\"contractual-disputes.html\" class=\"text-black\"><i><b><u>Contractual Disputes</u></b></i></a>: Our lawyers provide legal advice and representation in contractual disputes, helping clients interpret and enforce contracts, resolve breach of contract issues, and negotiate favorable outcomes.<br><br><a href=\"recovery-suit.html\" class=\"text-black\"><i><b><u>Suits for Recovery of Money</u></b></i></a>: We assist clients in recovering money owed to them through legal proceedings, including debt collection, loan defaults, unpaid invoices, and other monetary claims.<br><br>At Naich Law Firm, we believe in a client-centered approach. Our dedicated team of civil lawyers works closely with clients, understanding their specific needs and objectives, and providing personalized legal strategies to achieve the best possible outcomes. We are committed to diligently representing our clients' interests, whether through negotiation, mediation, or litigation.<br><br>With our strong advocacy skills, attention to detail, and comprehensive legal knowledge, Naich Law Firm has established a reputation as a top civil law firm in Karachi. We are committed to delivering high-quality legal services, ensuring that our clients' rights and interests are protected throughout the civil litigation process.<br><br>If you are in need of a top civil lawyer in Karachi, Pakistan, contact Naich Law Firm today to schedule a consultation. Let our experienced team guide you through your civil dispute and work towards a favorable resolution.<br></i><br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Building</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\" width=\"728.1930501930501\" height=\"543\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading civil lawyers at Naich Law Chambers in Karachi, Pakistan.\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "header2-62",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -2563,7 +2563,7 @@
     "family-litigation.html": {
       "settings": {
         "title": "Family Litigation | Naich Law Firm | Top Family Lawyer in Karachi, Pakistan",
-        "order": 12,
+        "order": 10,
         "meta_descr": "Naich Law Firm offers expert legal support in various family law cases, including divorce, separation maintenance, recovery of dowry articles, conjugal rights, claims of property promised in marriage, and services for overseas clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -2754,7 +2754,7 @@
     "guardianship.html": {
       "settings": {
         "title": "Child Custody and  Guardianship | Naich Law Firm | Top Family Lawyer in Karachi, Pakistan",
-        "order": 13,
+        "order": 11,
         "meta_descr": "Naich Law Firm provides expert legal advice and representation in child custody, legal guardianship, child adoption, visitation rights, and child maintenance cases. Our experienced family lawyers are dedicated to protecting the best interests of children and helping clients navigate complex family law matters."
       },
       "components": [
@@ -2944,7 +2944,7 @@
     "consumer-litigation.html": {
       "settings": {
         "title": "Consumer Litigation | Naich Law Firm | Top Consumer Rights Lawyer in Karachi, Pakistan",
-        "order": 10,
+        "order": 41,
         "meta_descr": "Naich Law Firm is committed to defending consumer rights and providing legal assistance in consumer protection court cases. Our experienced lawyers ensure that rightful claimants receive their rights in matters of consumer litigation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -3022,7 +3022,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\"><a href=\"index.html\" class=\"text-black\">NAICH LAW&nbsp;FIRM</a></span></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\">Practice Areas</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">View All</a><a class=\"text-black dropdown-item\" href=\"civil-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Civil Litigation</a><a class=\"text-black dropdown-item\" href=\"corporate-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Corporate Litigation<br></a><a class=\"text-black dropdown-item\" href=\"family-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Family Litigation</a><a class=\"text-black dropdown-item\" href=\"guardianship.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Child Custody</a><a class=\"text-black dropdown-item\" href=\"criminal-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Criminal Litigation</a><a class=\"text-black dropdown-item\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Cyber Crime Litigation</a></div>\n                    \n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"lawyers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Our Lawyers</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"fee.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Fee</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white\" href=\"mailto:email@naichlaw.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope mbr-iconfont mbr-iconfont-btn\"></span>\n                  Email Us</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand && !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\"><a href=\"index.html\" class=\"text-black\">NAICH LAW&nbsp;FIRM</a></span></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\">Practice Areas</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">View All</a><a class=\"text-black dropdown-item\" href=\"civil-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Civil Litigation</a><a class=\"text-black dropdown-item\" href=\"corporate-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Corporate Litigation<br></a><a class=\"text-black dropdown-item\" href=\"family-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Family Litigation</a><a class=\"text-black dropdown-item\" href=\"guardianship.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Child Custody</a><a class=\"text-black dropdown-item\" href=\"criminal-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Criminal Litigation</a><a class=\"text-black dropdown-item\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Cyber Crime Litigation</a></div>\n                    \n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"lawyers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Our Lawyers</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"fee.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Fee</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white\" href=\"mailto:email@naichlaw.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope mbr-iconfont mbr-iconfont-btn\"></span>\n                  Email Us</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
           "_sourceTheme": "mobirise-amp",
           "_cid": "tFz9PzfysQ",
           "_anchor": "menu2-6c",
@@ -3065,7 +3065,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Consumer Litigation Services</h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">by Naich Law Firm's Top Consumer Rights Lawyers in Karachi, Pakistan.</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>Naich Law Firm is a trusted law firm in Karachi, Pakistan, dedicated to defending consumer rights and providing expert legal assistance in consumer protection court cases. Our team of experienced lawyers, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, is committed to ensuring that rightful claimants receive their rights in matters of consumer litigation.<br><br>Consumer disputes can arise in various areas, including faulty products, misleading advertising, unfair practices, breach of warranties, and contract disputes. At Naich Law Firm, we understand the challenges consumers face when dealing with these issues and work tirelessly to protect their rights. Our services in consumer litigation include:<br><br>Legal Advice: We provide expert legal advice to consumers regarding their rights, potential claims, and available legal remedies in consumer protection cases.<br><br>Filing Complaints: Our lawyers assist consumers in filing complaints with the appropriate consumer protection authorities or consumer courts to seek redress for grievances.<br><br>Representation: We represent consumers in consumer protection court cases, advocating for their rights and interests to ensure a fair resolution.<br><br>Settlement Negotiations: Our team negotiates on behalf of consumers to reach favorable settlements with businesses or service providers, striving to achieve the best possible outcomes.<br><br>Class Action Lawsuits: In cases involving a large number of affected consumers, we help in organizing and pursuing class action lawsuits to hold businesses accountable for their actions and secure justice for the affected consumers.<br><br>Naich Law Firm recognizes the importance of consumer rights and the impact of consumer litigation on individuals and society. We are dedicated to providing personalized legal solutions tailored to the unique needs of our clients. Our lawyers are well-versed in consumer protection laws and regulations in Pakistan and work diligently to protect the rights of consumers.<br><br>We prioritize effective communication, keeping our clients informed about the progress of their cases, explaining legal processes in a clear and understandable manner, and providing regular updates. Our goal is to ensure that consumers are empowered with the knowledge and support needed to make informed decisions regarding their consumer protection rights.<br><br>With our extensive experience in consumer litigation, Naich Law Firm has earned a reputation as a top consumer rights law firm in Karachi. We are committed to upholding consumer rights, seeking justice, and providing legal assistance to consumers who have been wronged.<br><br>If you are facing a consumer dispute or require legal representation in a consumer protection court case, contact Naich Law Firm today. Our experienced consumer rights lawyers are here to protect your rights and ensure a fair resolution.</i><br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Building</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\" width=\"728.1930501930501\" height=\"543\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected=\"\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor &amp;&amp; bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Consumer Litigation Services</h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">by Naich Law Firm's Top Consumer Rights Lawyers in Karachi, Pakistan.</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>Naich Law Firm is a trusted law firm in Karachi, Pakistan, dedicated to defending consumer rights and providing expert legal assistance in consumer protection court cases. Our team of experienced lawyers, led by Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, is committed to ensuring that rightful claimants receive their rights in matters of consumer litigation.<br><br>Consumer disputes can arise in various areas, including faulty products, misleading advertising, unfair practices, breach of warranties, and contract disputes. At Naich Law Firm, we understand the challenges consumers face when dealing with these issues and work tirelessly to protect their rights. Our services in consumer litigation include:<br><br>Legal Advice: We provide expert legal advice to consumers regarding their rights, potential claims, and available legal remedies in consumer protection cases.<br><br>Filing Complaints: Our lawyers assist consumers in filing complaints with the appropriate consumer protection authorities or consumer courts to seek redress for grievances.<br><br>Representation: We represent consumers in consumer protection court cases, advocating for their rights and interests to ensure a fair resolution.<br><br>Settlement Negotiations: Our team negotiates on behalf of consumers to reach favorable settlements with businesses or service providers, striving to achieve the best possible outcomes.<br><br>Class Action Lawsuits: In cases involving a large number of affected consumers, we help in organizing and pursuing class action lawsuits to hold businesses accountable for their actions and secure justice for the affected consumers.<br><br>Naich Law Firm recognizes the importance of consumer rights and the impact of consumer litigation on individuals and society. We are dedicated to providing personalized legal solutions tailored to the unique needs of our clients. Our lawyers are well-versed in consumer protection laws and regulations in Pakistan and work diligently to protect the rights of consumers.<br><br>We prioritize effective communication, keeping our clients informed about the progress of their cases, explaining legal processes in a clear and understandable manner, and providing regular updates. Our goal is to ensure that consumers are empowered with the knowledge and support needed to make informed decisions regarding their consumer protection rights.<br><br>With our extensive experience in consumer litigation, Naich Law Firm has earned a reputation as a top consumer rights law firm in Karachi. We are committed to upholding consumer rights, seeking justice, and providing legal assistance to consumers who have been wronged.<br><br>If you are facing a consumer dispute or require legal representation in a consumer protection court case, contact Naich Law Firm today. Our experienced consumer rights lawyers are here to protect your rights and ensure a fair resolution.</i><br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Building</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\" width=\"728.1930501930501\" height=\"543\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-2327-2-3-1044x1392.jpeg\" alt=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\" title=\"Advocate Arslan Abid Naich and Advocate Ahsan Abid Naich, leading consumer rights lawyers at Naich Law Firm in Karachi, Pakistan, dedicated to defending consumer rights and providing legal assistance in consumer protection court cases.\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "tFz9PAh3Nb",
@@ -3135,7 +3135,7 @@
     "cyber-crime.html": {
       "settings": {
         "title": "Cyber Crime Cases | Naich Law Firm | Top Cyber Crime Lawyer in Karachi, Pakistan",
-        "order": 15,
+        "order": 13,
         "meta_descr": "Naich Law Firm offers specialized expertise in cyber crime law, providing legal support and protection against cyber threats. Our team handles cases related to cyber terrorism, identity theft, cyber bullying, and online harassment, ensuring the rights and security of our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -3326,7 +3326,7 @@
     "tenancy.html": {
       "settings": {
         "title": "Landlord-Tenant Disputes | Naich Law Firm | Top Landlord-Tenant Lawyer in Karachi, Pakistan",
-        "order": 29,
+        "order": 27,
         "meta_descr": "Naich Law Firm provides expert legal advice and representation in landlord-tenant disputes. Our experienced lawyers handle a wide range of issues, including lease agreements, eviction proceedings, rent disputes, property maintenance, and tenant rights, ensuring fair resolution for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -3517,7 +3517,7 @@
     "property-matters.html": {
       "settings": {
         "title": "Property Battles | Naich Law Firm | Top Property Dispute Lawyer in Karachi, Pakistan",
-        "order": 30,
+        "order": 28,
         "meta_descr": "Naich Law Firm offers expert legal representation and advice in property battles. Our experienced lawyers handle various property disputes, including ownership disputes, boundary disputes, title defects, inheritance claims, and illegal encroachments, ensuring a fair resolution for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -3708,7 +3708,7 @@
     "financial-injury.html": {
       "settings": {
         "title": "Financial Injury | Naich Law Firm | Top Financial Injury Lawyer in Karachi, Pakistan",
-        "order": 31,
+        "order": 29,
         "meta_descr": "Naich Law Firm provides expert legal representation and support for cases involving financial injury. Our skilled lawyers handle a wide range of financial injury claims, including fraud, misrepresentation, breach of contract, investment disputes, and financial negligence, ensuring fair compensation for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -3899,7 +3899,7 @@
     "educational-disputes.html": {
       "settings": {
         "title": "Educational Institutional Disputes | Naich Law Firm | Top Education Law Firm in Karachi, Pakistan",
-        "order": 32,
+        "order": 30,
         "meta_descr": "Naich Law Firm specializes in handling educational institutional disputes, providing legal assistance to students facing issues such as unfair treatment, disciplinary actions, academic grievances, and violations of student rights. Our experienced lawyers are dedicated to protecting students' interests and ensuring a fair and supportive educational environment.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -4090,7 +4090,7 @@
     "contractual-disputes.html": {
       "settings": {
         "title": "Contractual Disputes | Naich Law Firm | Top Contract Law Firm in Karachi, Pakistan",
-        "order": 33,
+        "order": 31,
         "meta_descr": "Naich Law Firm offers expert legal representation and advice in contractual disputes. Our experienced lawyers specialize in handling contract-related conflicts, including breach of contract, contract interpretation, non-performance, and contractual disagreements, ensuring fair resolutions for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -4281,7 +4281,7 @@
     "recovery-suit.html": {
       "settings": {
         "title": "Suits for Recovery of Money | Naich Law Firm | Top Debt Recovery Law Firm in Karachi, Pakistan",
-        "order": 41,
+        "order": 39,
         "meta_descr": "Naich Law Firm offers professional legal representation and guidance in suits for the recovery of money. Our experienced lawyers specialize in debt recovery cases, including outstanding loans, unpaid invoices, financial disputes, and debt collection, ensuring efficient and effective recovery for our clients.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -4472,7 +4472,7 @@
     "false-charges .html": {
       "settings": {
         "title": "False Charges | Naich Law Firm | Expert Legal Representation for False Accusations",
-        "order": 43,
+        "order": 42,
         "meta_descr": "Naich Law Firm provides skilled legal representation and support for false charges cases. Our experienced lawyers specialize in defending clients against wrongful allegations, false accusations, and fabricated charges, ensuring their rights are protected and justice is served.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -4663,7 +4663,7 @@
     "personal-injury.html": {
       "settings": {
         "title": "Personal Injury | Naich Law Firm | Experienced Personal Injury Lawyers in Karachi, Pakistan",
-        "order": 45,
+        "order": 44,
         "meta_descr": "Naich Law Firm provides dedicated legal representation for personal injury cases. Our experienced lawyers specialize in handling a wide range of personal injury claims, including accidents, medical negligence, workplace injuries, and wrongful death, ensuring that our clients receive the compensation they deserve.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -4854,7 +4854,7 @@
     "domestic-violence.html": {
       "settings": {
         "title": "Domestic Violence Lawyers in Karachi, Pakistan | Naich Law Firm | Compassionate Legal Support for Domestic Violence Victims",
-        "order": 44,
+        "order": 43,
         "meta_descr": "Naich Law Firm is a leading law firm in Karachi, Pakistan, providing compassionate legal support for domestic violence victims. Our experienced domestic violence lawyers specialize in protecting the rights of victims, obtaining restraining orders, filing for divorce, and seeking justice. Contact us for expert legal representation in domestic violence cases.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -5045,7 +5045,7 @@
     "end-child-abuse.html": {
       "settings": {
         "title": "Legal Services for Victims of Child Abuse in Karachi, Pakistan | Naich Law Firm | Protecting Rights and Seeking Justice",
-        "order": 49,
+        "order": 48,
         "meta_descr": "Naich Law Firm provides comprehensive legal services for victims of child abuse in Karachi, Pakistan. Our experienced lawyers are dedicated to protecting the rights of child abuse victims, providing them with expert legal support, and seeking justice on their behalf. Contact us for compassionate and effective legal representation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -5236,7 +5236,7 @@
     "sexual-harassment-justice.html": {
       "settings": {
         "title": "Legal Assistance for Sexual Harassment Victims in Karachi, Pakistan | Naich Law Firm | Protecting Rights and Seeking Justice",
-        "order": 48,
+        "order": 47,
         "meta_descr": "Naich Law Firm offers dedicated legal support and representation for victims of sexual harassment in Karachi, Pakistan. Our experienced lawyers are committed to protecting the rights of sexual harassment victims, providing them with compassionate legal assistance, and seeking justice on their behalf. Contact us for expert legal representation.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -5427,7 +5427,7 @@
     "capital-offences.html": {
       "settings": {
         "title": "Legal Representation for Capital Offences in Karachi, Pakistan | Naich Law Firm | Protecting Rights and Ensuring Fair Trials",
-        "order": 47,
+        "order": 46,
         "meta_descr": "Naich Law Firm provides skilled legal representation for capital offences in Karachi, Pakistan. Our experienced lawyers are committed to protecting the rights of individuals accused of capital offences, ensuring fair trials, and providing effective legal defense. Contact us for expert assistance in capital offence cases.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -5618,7 +5618,7 @@
     "divorce-lawyers.html": {
       "settings": {
         "title": "Expert Divorce Lawyers in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 42,
+        "order": 40,
         "meta_descr": "Naich Law Firm provides expert legal representation for divorce cases in Karachi, Pakistan. Our experienced divorce lawyers are dedicated to protecting the rights and interests of our clients, ensuring fair settlements, and guiding them through the divorce process. Contact us for professional assistance in divorce matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -5809,7 +5809,7 @@
     "separation-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Separation Cases in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 46,
+        "order": 45,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for separation cases in Karachi, Pakistan. Our experienced lawyers specialize in family suits for separation and ensure that your rights and interests are protected throughout the court proceedings. Contact us for professional assistance in separation matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -6000,7 +6000,7 @@
     "family-maintenance.html": {
       "settings": {
         "title": "Expert Legal Guidance for Maintenance Cases in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 25,
+        "order": 23,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for maintenance cases in Karachi, Pakistan. Our experienced lawyers specialize in securing maintenance for wives and children during divorce, separation, or family dispute proceedings. Contact us for professional assistance in maintenance matters."
       },
       "components": [
@@ -6190,7 +6190,7 @@
     "suit-dowery-articles.html": {
       "settings": {
         "title": "Expert Legal Assistance for Suit of Recovery of Dowry Articles in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 28,
+        "order": 26,
         "meta_descr": "Naich Law Chambers provides expert legal representation and guidance for suits of recovery of dowry articles in Karachi, Pakistan. Our experienced lawyers specialize in assisting wives in claiming their rightful dowry articles during marriage or divorce proceedings. Contact us for professional assistance in dowry recovery matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6381,7 +6381,7 @@
     "conjugal-rights-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Suit of Restitution of Conjugal Rights in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 27,
+        "order": 25,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for suits of restitution of conjugal rights in Karachi, Pakistan. Our experienced lawyers specialize in assisting spouses in seeking the restoration of conjugal rights through legal proceedings. Contact us for professional assistance in conjugal rights matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6572,7 +6572,7 @@
     "promised-property.html": {
       "settings": {
         "title": "Expert Legal Assistance for Claims of Property Promised in Marriage in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Interests",
-        "order": 26,
+        "order": 24,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for claims of property promised in marriage in Karachi, Pakistan. Our experienced lawyers specialize in assisting individuals in asserting their rights to property promised to them during the course of marriage. Contact us for professional assistance in property claims matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6763,7 +6763,7 @@
     "child-custody-case.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Custody Cases in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights and Your Child's Best Interests",
-        "order": 18,
+        "order": 16,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for child custody cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits of custody under the Guardian and Wards Act, ensuring the protection of your rights and advocating for your child's best interests. Contact us for professional assistance in child custody matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -6954,7 +6954,7 @@
     "guardianship-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Legal Guardianship Cases in Karachi, Pakistan | Naich Law Firm | Protecting the Best Interests of Minors",
-        "order": 24,
+        "order": 22,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for legal guardianship cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits for guardianship under the Guardian and Wards Act, ensuring the protection of minors' rights and their best interests. Contact us for professional assistance in legal guardianship matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7145,7 +7145,7 @@
     "child-adoption-process.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Adoption in Karachi, Pakistan | Naich Law  | Guiding You Through the Adoption Process",
-        "order": 23,
+        "order": 21,
         "meta_descr": "Naich Law  provides expert legal representation and guidance for child adoption cases in Karachi, Pakistan. Our experienced lawyers specialize in handling the adoption process, including the preparation of adoption deeds, filing suits for guardianship, and obtaining guardianship certificates from the family court. Contact us for professional assistance in child adoption matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7336,7 +7336,7 @@
     "child-visitation-rights.html": {
       "settings": {
         "title": "Expert Legal Assistance for Right of Visitation to Child in Karachi, Pakistan | Naich Law Firm | Ensuring Parental Access and Bonding",
-        "order": 20,
+        "order": 18,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for the right of visitation to a child in Karachi, Pakistan. Our experienced lawyers specialize in filing suits under the Guardian and Wards Act, ensuring that parents have access to their children and maintaining strong parent-child relationships. Contact us for professional assistance in matters of visitation rights.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7527,7 +7527,7 @@
     "child-maintenance-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Child Maintenance in Karachi, Pakistan | Naich Law Firm | Ensuring Financial Support for Children",
-        "order": 19,
+        "order": 17,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for child maintenance cases in Karachi, Pakistan. Our experienced lawyers specialize in filing suits in the family court to seek maintenance orders, ensuring that children receive the financial support they deserve for their well-being. Contact us for professional assistance in matters of child maintenance.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7718,7 +7718,7 @@
     "cyber-terrorism-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Cyber Terrorism Cases in Karachi, Pakistan | Naich Law Firm | Protecting Your Rights in Cyber Crime Matters",
-        "order": 16,
+        "order": 14,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for cyber terrorism cases in Karachi, Pakistan. Our experienced lawyers specialize in assisting clients in cases of cyber crimes under the Prevention of Electronic Crimes Act, ensuring their rights are protected throughout the investigation and trial process. Contact us for professional assistance in cyber crime matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -7909,7 +7909,7 @@
     "identity-theft-cases.html": {
       "settings": {
         "title": "Expert Legal Assistance for Identity Theft Cases in Karachi, Pakistan | Naich Law Firm | Protecting Your Identity and Rights in Cyber Crime Matters",
-        "order": 17,
+        "order": 15,
         "meta_descr": "Naich Law Firm provides expert legal representation and guidance for identity theft cases in Karachi, Pakistan. Our experienced lawyers specialize in assisting clients in cases of cyber crimes, including identity theft, under the Prevention of Electronic Crimes Act. We prioritize protecting your identity and rights throughout the investigation and trial process. Contact us for professional assistance in identity theft matters.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -9248,7 +9248,7 @@
     "contractdispute.html": {
       "settings": {
         "title": "Expert Contract Litigation Services in Karachi, Pakistan | Naich Law Firm",
-        "order": 21,
+        "order": 19,
         "meta_descr": "Trust Naich Law Firm in Karachi, Pakistan, for comprehensive contract litigation services. Our seasoned legal team specializes in resolving disputes through litigation, safeguarding your company's rights and ensuring contractual obligations are met.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -9439,7 +9439,7 @@
     "shareholderdisputes.html": {
       "settings": {
         "title": "Expert Legal Guidance for Shareholder Disputes | Naich Law Firm, Karachi, Pakistan",
-        "order": 22,
+        "order": 20,
         "meta_descr": "Navigate complex shareholder disputes with confidence. Naich Law Firm in Karachi, Pakistan, offers comprehensive legal advice and representation, aiming for amicable resolutions and, when needed, vigorous court advocacy for fair outcomes.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13928.jpeg"
       },
@@ -9630,7 +9630,7 @@
     "corporategovernance.html": {
       "settings": {
         "title": "Expert Guidance on Corporate Governance Issues | Naich Law Firm, Karachi, Pakistan",
-        "order": 34,
+        "order": 32,
         "meta_descr": "Naich Law Firm offers expert assistance in navigating corporate governance matters. Our seasoned team specializes in director and officer liability, fiduciary duties, and compliance issues, ensuring businesses adhere to legal requirements and navigate complex regulatory frameworks with confidence.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -9821,7 +9821,7 @@
     "mergersacquisitions.html": {
       "settings": {
         "title": "Strategic Legal Guidance for Mergers and Acquisitions Disputes | Naich Law Firm, Karachi, Pakistan",
-        "order": 35,
+        "order": 33,
         "meta_descr": "Naich Law Firm specializes in providing strategic legal guidance for disputes arising from mergers, acquisitions, and business transactions. Our dedicated team safeguards your company's assets and investments, ensuring a fair and just resolution.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10012,7 +10012,7 @@
     "intellectualproperty.html": {
       "settings": {
         "title": "Protecting Your Intellectual Property: Expert Handling of Disputes | Naich Law Firm, Karachi, Pakistan",
-        "order": 36,
+        "order": 34,
         "meta_descr": "Naich Law Firm excels in handling intellectual property disputes, covering trademark and copyright infringement matters. Our dedicated team safeguards your company's valuable assets and proprietary rights with expert legal strategies.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10204,7 +10204,7 @@
     "employmentdisputes.html": {
       "settings": {
         "title": "Expert Representation for Employment Disputes | Naich Law Firm, Karachi, Pakistan",
-        "order": 40,
+        "order": 38,
         "meta_descr": "Naich Law Firm specializes in representing businesses in employment disputes, addressing wrongful termination claims and discrimination suits. Our dedicated team ensures compliance with labor laws, offering expert representation to protect your company's interests.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10396,7 +10396,7 @@
     "debtrecovery.html": {
       "settings": {
         "title": "Efficient Debt Recovery Solutions | Naich Law Firm, Karachi, Pakistan",
-        "order": 38,
+        "order": 36,
         "meta_descr": "Naich Law Firm specializes in assisting businesses with efficient debt recovery solutions. Our dedicated team takes prompt legal action to recover outstanding debts and unpaid invoices, ensuring your company's financial interests are protected.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10588,7 +10588,7 @@
     "documentreview.html": {
       "settings": {
         "title": "Comprehensive Legal Document Review Services | Naich Law Firm, Karachi, Pakistan",
-        "order": 39,
+        "order": 37,
         "meta_descr": "Naich Law Firm offers expert legal document review services to ensure accuracy and compliance with the law for your business contracts, agreements, and legal documents. Trust our experienced team to safeguard your legal interests.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10780,7 +10780,7 @@
     "legalnotice.html": {
       "settings": {
         "title": "Effective Legal Notices: Naich Law Firm's Expert Assistance | Karachi, Pakistan",
-        "order": 37,
+        "order": 35,
         "meta_descr": "Naich Law Firm specializes in preparing and serving legal notices, including demand letters, termination notices, and notices of default. Trust our expert team to protect your legal rights and facilitate effective communication with counterparties.",
         "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
       },
@@ -10966,197 +10966,6 @@
           "_global": true,
           "_once": "footer",
           "_params": {}
-        }
-      ]
-    },
-    "legaladvice.html": {
-      "settings": {
-        "title": "Trusted Legal Advice Services in Karachi, Pakistan | Naich Law Firm",
-        "order": 11,
-        "meta_descr": "Get expert legal advice in Karachi, Pakistan from Naich Law Firm. Our experienced lawyers offer tailored guidance and solutions for all your legal needs. Contact us for comprehensive legal advice services today!",
-        "meta_image": "@PROJECT_PATH@/assets/images/img-2327-2-3-1044x13922.jpeg"
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "min-height": "80px",
-            ".brand-name": {
-              "color": "#000000",
-              "margin": "0"
-            },
-            ".hamburger span, .close-sidebar span": {
-              "background": "@hamburgerColor"
-            },
-            ".nav-dropdown .dropdown-menu .dropdown-item": {
-              "font-weight": "400",
-              "width": "100%",
-              "text-align": "inherit"
-            },
-            ".navbar": {
-              "min-height": "80px",
-              "background": "@menuBgColor",
-              ".navbar-collapse": {
-                "& when not (@showItems)": {
-                  "display": "none !important"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".navbar-collapse": {
-                  "& when (@sidebarSide = 'left')": {
-                    "right": "auto",
-                    "left": "0"
-                  }
-                },
-                ".navbar-brand": {
-                  "flex-shrink": "initial"
-                }
-              }
-            },
-            ".navbar-brand": {
-              "flex-shrink": "0",
-              "margin-right": "0",
-              "padding": "0"
-            },
-            "@media (min-width: 992px)": {
-              ".navbar-expand-lg .navbar-nav .nav-link": {
-                "padding": "0"
-              },
-              ".navbar-nav .nav-link": {
-                "margin": ".667em 1em !important"
-              }
-            },
-            ".navbar-dropdown": {
-              "padding": ".5rem 0"
-            },
-            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
-              "background-color": "@menuBgColor"
-            },
-            "@media (max-width: 991px)": {
-              ".navbar-nav a": {
-                "padding": "0.5rem 0 !important",
-                "margin": "0 0 10px !important"
-              }
-            },
-            ".close-sidebar:focus": {
-              "outline": "2px auto @primaryColor"
-            },
-            "amp-img": {
-              "height": "~\"@{logoHeight}px\"",
-              "width": "~\"@{logoWidth}px\"",
-              "img": {
-                "object-fit": "contain"
-              }
-            }
-          },
-          "_name": "menu2",
-          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"60\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4ea2e3\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" layout=\"responsive\" width=\"50\" height=\"50\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" class=\"mobirise-loader\" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/naich-law-firm-2000x2000.png\" alt=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers \" title=\"Naich Law Chamber Logo - Top law chamber in karachi Pakistan Top lawyers  \"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\"><a href=\"index.html\" class=\"text-black\">NAICH LAW&nbsp;FIRM</a></span></p>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\">Practice Areas</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"practice.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">View All</a><a class=\"text-black dropdown-item\" href=\"civil-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Civil Litigation</a><a class=\"text-black dropdown-item\" href=\"corporate-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Corporate Litigation<br></a><a class=\"text-black dropdown-item\" href=\"family-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Family Litigation</a><a class=\"text-black dropdown-item\" href=\"guardianship.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Child Custody</a><a class=\"text-black dropdown-item\" href=\"criminal-litigation.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Criminal Litigation</a><a class=\"text-black dropdown-item\" href=\"cyber-crime.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Cyber Crime Litigation</a></div>\n                    \n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">About</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"lawyers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Our Lawyers</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"fee.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Fee</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white\" href=\"mailto:email@naichlaw.com\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-envelope mbr-iconfont mbr-iconfont-btn\"></span>\n                  Email Us</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "uayKuuZRa9",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {},
-          "_anchor": "menu2-c0"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@twoColor)": {
-                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "amp-img": {
-              "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
-              "border-radius": "10px",
-              "img": {
-                "object-fit": "cover"
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-lg-{{widthContent}} mbr-col-sm-12 mbr-col-md-12 mbr-flex mbr-column\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Expert Legal Advice Services in Karachi, Pakistan | Naich Law Firm</h1>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">Trusted Guidance for Your Legal Matters</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Welcome to Naich Law Firm, your trusted source for expert legal advice in Karachi, Pakistan. Our experienced team of lawyers is here to provide tailored guidance and solutions for all your legal needs.<br><br>At Naich Law Firm, we understand that navigating the legal system can be complex and overwhelming. Whether you're dealing with a personal legal issue, starting a new business, or facing challenges in your professional life, our team is dedicated to helping you find the best possible solution. From civil disputes to criminal matters, family law issues to business contracts, we have the knowledge and expertise to guide you through every step of the legal process.<br><br>Our legal advice services are designed to provide you with clear, practical guidance that is tailored to your specific situation. We take the time to listen to your concerns, understand your goals, and develop a strategy that meets your needs. Whether you need help drafting a legal document, negotiating a settlement, or representing you in court, we are here to advocate for your rights and protect your interests.<br><br>With years of experience practicing law in Karachi, Pakistan, our team has built a reputation for providing reliable, professional legal advice to individuals and businesses alike. We stay up-to-date with the latest legal developments and use our knowledge and skills to help our clients achieve the best possible outcomes.<br><br><b>Why Choose Naich Law Firm for Legal Advice:</b><br><br><b>1. Expertise:</b> Our team of lawyers has extensive experience in a wide range of legal areas, allowing us to provide comprehensive advice on various legal issues.<br><br><b>2. Personalized Service:</b> We understand that every case is unique, and we take a personalized approach to each client, ensuring that you receive the attention and support you deserve.<br><br><b>3. Dedication:</b> We are committed to providing our clients with the highest level of service and representation, and we work tirelessly to achieve the best possible results.<br><br><b>4. Transparent Communication:</b> Throughout the legal process, we maintain open and transparent communication with our clients, keeping you informed every step of the way.<br><br>If you're in need of expert legal advice in Karachi, Pakistan, trust Naich Law Firm to provide you with the guidance and support you need. Contact us today to schedule a consultation with one of our experienced lawyers.<br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Building</a></div>\n                <div class=\"mbr-pt-4\">\n                    <amp-img src=\"@PROJECT_PATH@/assets/images/img_2327_2-3-1044x1392.jpeg\" alt=\"Legal Advice Services at Naich Law Firm, Karachi, Pakistan. Advocates Arslan Abid Naich and Ahsan Abid Naich providing expert legal guidance.\" width=\"728.1930501930501\" height=\"543\" layout=\"responsive\" class=\"mobirise-loader mbr-m-auto align-center\" title=\"Arslan Abid Naich and Ahsan Abid Naich providing expert legal guidance at Naich Law Firm, Karachi, Pakistan.\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img_2327_2-3-1044x1392.jpeg\" alt=\"Legal Advice Services at Naich Law Firm, Karachi, Pakistan. Advocates Arslan Abid Naich and Ahsan Abid Naich providing expert legal guidance.\" title=\"Arslan Abid Naich and Ahsan Abid Naich providing expert legal guidance at Naich Law Firm, Karachi, Pakistan.\">\n                    </amp-img>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "uayKuwb2RU",
-          "_anchor": "header2-c1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@twoColor)": {
-                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@showTitle), (@showSubtitle)": {
-              "@media (max-width: 991px)": {
-                ".btn-container when (@showButton)": {
-                  "padding-top": "2rem"
-                }
-              }
-            }
-          },
-          "_name": "info1",
-          "_customHTML": "<section class=\"info1\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" condition=\"(showTitle || showSubtitle) && showButton\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3-2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#00dcc0\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" value=\"#000000\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><i>Contact us</i></h2>\n                <h3 class=\"mbr-text align-left mbr-fonts-style mbr-regular mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\"><i>Contact Naich Law Firm in Karachi, Pakistan for expert legal services and consultation with our team of experienced lawyers. We are dedicated to protecting your rights and interests.</i></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-4 align-center mbr-flex\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn mbr-m-auto\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"contact.html\" data-app-placeholder=\"Type Text\">Contact Us</a> <a class=\"btn btn-white-outline\" href=\"question.html\" data-app-placeholder=\"Type Text\">Frequently Asked Questions</a> <a class=\"btn btn-white-outline\" href=\"privacy-policy.html\" data-app-placeholder=\"Type Text\">Privacy Policy</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "uayKuwN16U",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "info1-c2"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">&nbsp;Copyright © Naich Law Firm - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "uayKuxbZWC",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-c3"
         }
       ]
     }
